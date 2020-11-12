@@ -39,6 +39,12 @@ public class StudentController {
 		return studentService.getOne(Id);
 	}
 	
+	@RequestMapping("/getOne1")
+	@ResponseBody
+	public String getOne1() {
+		return "xxx";
+	}
+	
 	@PostMapping("/addNew")
 	public String addNew(Student student) {
 		studentService.addNew(student);

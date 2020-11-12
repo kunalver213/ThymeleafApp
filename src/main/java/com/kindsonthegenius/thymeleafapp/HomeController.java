@@ -19,14 +19,4 @@ public class HomeController {
 		return "index";
 	}
 
-	@RequestMapping(value="/abc", produces = "application/json")
-	public String test1() {
-		return "{ \"empId\" :	\"123\" }";
-	}
-	
-	@GetMapping("/abc1")
-	String abc() {
-		return "abc";
-	}
-
 }
