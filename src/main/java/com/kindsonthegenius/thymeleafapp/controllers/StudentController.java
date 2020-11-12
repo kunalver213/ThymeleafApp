@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.kindsonthegenius.thymeleafapp.models.Jsons;
 import com.kindsonthegenius.thymeleafapp.models.Student;
 import com.kindsonthegenius.thymeleafapp.services.StudentService;
 
@@ -39,11 +40,7 @@ public class StudentController {
 		return studentService.getOne(Id);
 	}
 	
-	@RequestMapping("/getOne1")
-	@ResponseBody
-	public String getOne1() {
-		return "xxx";
-	}
+	
 	
 	@PostMapping("/addNew")
 	public String addNew(Student student) {
@@ -66,7 +63,11 @@ public class StudentController {
 	}
 	
 	
-	
+	@RequestMapping("/sap/opu/odata/sap/ZMOB_ADVANCES_DEFAULT_SRV/REASON_DD_SET?$format=json")
+	@ResponseBody
+	public String getReasonDD() {
+		return new Jsons().getReasonDD();
+	}
 	
 	
 	
