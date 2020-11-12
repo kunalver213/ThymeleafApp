@@ -19,7 +19,7 @@ public class HomeController {
 	}
 
 	@RequestMapping("/abc")
-	public String test() {
+	public String test1() {
 		return "abc";
 	}
 	
