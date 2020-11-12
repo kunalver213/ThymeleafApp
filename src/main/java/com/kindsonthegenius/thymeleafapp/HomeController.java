@@ -17,6 +17,11 @@ public class HomeController {
 	public String test() {
 		return "index";
 	}
+
+	@RequestMapping("/abc")
+	public String test() {
+		return "abc";
+	}
 	
 	@RequestMapping(value="/advdetails" , method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	public String getAdvDetails(){
