@@ -5,6 +5,7 @@ import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,15 +19,14 @@ public class HomeController {
 		return "index";
 	}
 
-	@RequestMapping("/abc")
+	@RequestMapping(value="/abc", produces = "application/json")
 	public String test1() {
-		return "abc";
+		return "{ \"empId\" :	\"123\" }";
 	}
 	
-	@RequestMapping(value="/advdetails" , method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
-	public String getAdvDetails(){
-		
-		return "xxx";
+	@GetMapping("/abc1")
+	String abc() {
+		return "abc";
 	}
 
 }
