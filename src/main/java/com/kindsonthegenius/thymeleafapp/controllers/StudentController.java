@@ -63,7 +63,7 @@ public class StudentController {
 	}
 	
 	
-	@RequestMapping("/sap/opu/odata/sap/ZMOB_ADVANCES_DEFAULT_SRV/REASON_DD_SET?$format=json")
+	@RequestMapping("/sap")
 	@ResponseBody
 	public String getReasonDD() {
 		return new Jsons().getReasonDD();
