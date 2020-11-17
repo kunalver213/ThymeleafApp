@@ -63,11 +63,6 @@ public class StudentController {
 	}
 	
 	
-	@RequestMapping("/sap")
-	@ResponseBody
-	public String getReasonDD() {
-		return new Jsons().getReasonDD();
-	}
 	
 	
 }
