@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.kindsonthegenius.thymeleafapp.models.Jsons;
 import com.kindsonthegenius.thymeleafapp.models.Student;
 import com.kindsonthegenius.thymeleafapp.services.StudentService;
-import com.rbi.pojo.Employee;
+
 
 @Controller
 @RequestMapping("/sap")
