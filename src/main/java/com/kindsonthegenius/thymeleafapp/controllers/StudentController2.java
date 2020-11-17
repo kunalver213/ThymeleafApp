@@ -41,5 +41,24 @@ public class StudentController2 {
 		return new Jsons().advdetailset();
 	}
 	
+	@RequestMapping(value="/advcurremi", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAdvCurrEmi(@RequestBody String pernr,  String dlart,  String extdl) {
+		return new Jsons().advcurremi();
+	}
+	
+	@RequestMapping(value="/advrepayifsc", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAdvRepayIfsc(@RequestBody String pernr,  String loanAccNo) {
+		return new Jsons().advrepayifsc();
+	}
+
+	
+	@RequestMapping(value="/advchangeemi", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String chnageEmi(@RequestBody String pernr,  String dlart,  String extdl, String newemi) {
+		return new Jsons().advchangeemi();
+	}
+	
 	
 }
