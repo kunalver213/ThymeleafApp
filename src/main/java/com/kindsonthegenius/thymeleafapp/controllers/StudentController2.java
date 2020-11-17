@@ -21,7 +21,7 @@ import com.kindsonthegenius.thymeleafapp.services.StudentService;
 public class StudentController2 {
 	
 	
-	@RequestMapping("/getReason")
+	@RequestMapping(value="/advtypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getReasonDD() {
 		return new Jsons().getReasonDD();
