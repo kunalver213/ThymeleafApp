@@ -29,5 +29,17 @@ public class StudentController2 {
 		return new Jsons().advtypelist();
 	}
 	
+	@RequestMapping(value="/advreasonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAdvReasonList(@RequestBody String empId) {
+		return new Jsons().advreasonlist();
+	}
+	
+	@RequestMapping(value="/advdetailset", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAdvDetails(@RequestBody String empId) {
+		return new Jsons().advdetailset();
+	}
+	
 	
 }
