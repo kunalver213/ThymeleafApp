@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.kindsonthegenius.thymeleafapp.models.Jsons;
 import com.kindsonthegenius.thymeleafapp.models.Student;
 import com.kindsonthegenius.thymeleafapp.services.StudentService;
+import com.rbi.pojo.Employee;
 
 @Controller
 @RequestMapping("/sap")
@@ -23,8 +25,8 @@ public class StudentController2 {
 	
 	@RequestMapping(value="/advtypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String getReasonDD() {
-		return new Jsons().getReasonDD();
+	public String getAdvTypeList(@RequestBody String empId) {
+		return new Jsons().advtypelist();
 	}
 	
 	
