@@ -168,4 +168,72 @@ public class Jsons {
 				"}";
 	}
 	
+	public String getLfcSetList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"lfcSetPernr\": \"\",\r\n" + 
+				"        \"lfcSetCode\": \"RS\",\r\n" + 
+				"        \"lfcSetDesc\": null,\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"lfcSetPernr\": \"\",\r\n" + 
+				"        \"lfcSetCode\": \"AS\",\r\n" + 
+				"        \"lfcSetDesc\": null,\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getLfcRelList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00150014\",\r\n" + 
+				"        \"lfsSetCCode\": null,\r\n" + 
+				"        \"scheme\": null,\r\n" + 
+				"        \"objps\": \"\",\r\n" + 
+				"        \"famsa\": \"1/\",\r\n" + 
+				"        \"famsaText\": \"Spouse:Shraddha\",\r\n" + 
+				"        \"elgAmt\": \"112000\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00150014\",\r\n" + 
+				"        \"lfsSetCCode\": null,\r\n" + 
+				"        \"scheme\": null,\r\n" + 
+				"        \"objps\": \"\",\r\n" + 
+				"        \"famsa\": \"3/\",\r\n" + 
+				"        \"famsaText\": \"Legal guardian:Samadhan\",\r\n" + 
+				"        \"elgAmt\": \"112000\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getLfcSetDetailList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"fromDate\": \"20150301\",\r\n" + 
+				"        \"toDate\": \"20170228\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"fromDate\": \"20170301\",\r\n" + 
+				"        \"toDate\": \"20190228\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"fromDate\": \"20190301\",\r\n" + 
+				"        \"toDate\": \"20210228\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
 }

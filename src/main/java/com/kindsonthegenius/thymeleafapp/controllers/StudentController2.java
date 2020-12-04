@@ -59,6 +59,28 @@ public class StudentController2 {
 	public String chnageEmi(@RequestBody String pernr,  String dlart,  String extdl, String newemi) {
 		return new Jsons().advchangeemi();
 	}
+		
+	/**
+	 * LFC TFA 
+	 */
+	
+	@RequestMapping(value="/lfcsetlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcSetList(@RequestBody String empId) {
+		return new Jsons().getLfcSetList();
+	}
+	
+	@RequestMapping(value="/lfcrellist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcRelList(@RequestBody String pernr,  String lfsSetCCode) {
+		return new Jsons().getLfcRelList();
+	}
+	
+	@RequestMapping(value="/lfcsetdetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcSetDetailList(@RequestBody String empId) {
+		return new Jsons().getLfcSetDetailList();
+	}
 	
 	
 }
