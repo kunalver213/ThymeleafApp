@@ -82,5 +82,11 @@ public class StudentController2 {
 		return new Jsons().getLfcSetDetailList();
 	}
 	
+	@RequestMapping(value="/lfcsetmoredetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcSetMoreDetailList(@RequestBody String pernr,  String fromDate,  String toDate) {
+		return new Jsons().getLfcSetMoreDetailList();
+	}
+	
 	
 }

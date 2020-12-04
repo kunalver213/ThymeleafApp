@@ -236,4 +236,20 @@ public class Jsons {
 				"]";
 	}
 	
+	public String getLfcSetMoreDetailList() {
+		return "{\r\n" + 
+				"    \"pernr\": \"35000 \",\r\n" + 
+				"    \"fromDate\": null,\r\n" + 
+				"    \"toDate\": null,\r\n" + 
+				"    \"noTrav\": null,\r\n" + 
+				"    \"elgAmt\": null,\r\n" + 
+				"    \"clmAmt\": null,\r\n" + 
+				"    \"taxbleAmt\": null,\r\n" + 
+				"    \"apprAmt\": null,\r\n" + 
+				"    \"taxDed\": null,\r\n" + 
+				"    \"paidAmt\": null,\r\n" + 
+				"    \"errorStatus\": null\r\n" + 
+				"}";
+	}
+	
 }
