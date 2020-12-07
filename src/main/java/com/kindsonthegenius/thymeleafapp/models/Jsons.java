@@ -254,31 +254,20 @@ public class Jsons {
 	
 	public String onlfcContinue() {
 		return "{\r\n" + 
-				"  \"d\" : {\r\n" + 
-				"    \"__metadata\" : {\r\n" + 
-				"      \"id\" : \"http://ODC-SAM-ECCD.rbi1.rbi.org.in:8000/sap/opu/odata/SAP/ZMOB_LFC_TAX_DET_SRV/submitSet(PERNR='00012345',ELG_AMT='60000')\",\r\n" + 
-				"      \"uri\" : \"http://ODC-SAM-ECCD.rbi1.rbi.org.in:8000/sap/opu/odata/SAP/ZMOB_LFC_TAX_DET_SRV/submitSet(PERNR='00012345',ELG_AMT='60000')\",\r\n" + 
-				"      \"type\" : \"ZMOB_LFC_TAX_DET_SRV.submit\"\r\n" + 
-				"    },\r\n" + 
-				"    \"PERNR\" : \"00012345\",\r\n" + 
-				"    \"ELG_AMT\" : \"60000\",\r\n" + 
-				"    \"TOT_TRAV\" : \"\",\r\n" + 
-				"    \"TOT_ELG_AMT\" : \"\",\r\n" + 
-				"    \"TOT_CLM_AMT\" : \"\",\r\n" + 
-				"    \"TOT_TAX_AMT\" : \"\",\r\n" + 
-				"    \"INC_TAX\" : \"\",\r\n" + 
-				"    \"EDU_CESS\" : \"\",\r\n" + 
-				"    \"TOT_TAX_DED\" : \"\",\r\n" + 
-				"    \"PAY_AMT\" : \"\",\r\n" + 
-				"    \"ACCEPT\" : \"\",\r\n" + 
-				"    \"CONT\" : \"\",\r\n" + 
-				"    \"MSG\" : \"\",\r\n" + 
-				"    \"submitexpandSet\" : {\r\n" + 
-				"      \"__deferred\" : {\r\n" + 
-				"        \"uri\" : \"http://ODC-SAM-ECCD.rbi1.rbi.org.in:8000/sap/opu/odata/SAP/ZMOB_LFC_TAX_DET_SRV/submitSet(PERNR='00012345',ELG_AMT='60000')/submitexpandSet\"\r\n" + 
-				"      }\r\n" + 
-				"    }\r\n" + 
-				"  }\r\n" + 
+				"    \"pernr\": \"00012345\",\r\n" + 
+				"    \"elgAmt\": \"60000\",\r\n" + 
+				"    \"totTrav\": \"\",\r\n" + 
+				"    \"totElgAmt\": \"\",\r\n" + 
+				"    \"totClmAmt\": \"\",\r\n" + 
+				"    \"totTaxAmt\": \"\",\r\n" + 
+				"    \"incTax\": \"\",\r\n" + 
+				"    \"eduCess\": \"\",\r\n" + 
+				"    \"totTaxDed\": \"\",\r\n" + 
+				"    \"payAmt\": \"\",\r\n" + 
+				"    \"accept\": \"\",\r\n" + 
+				"    \"cont\": \"\",\r\n" + 
+				"    \"msg\": \"\",\r\n" + 
+				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
 	

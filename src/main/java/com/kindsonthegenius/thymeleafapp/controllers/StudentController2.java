@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.kindsonthegenius.thymeleafapp.models.Jsons;
+import com.kindsonthegenius.thymeleafapp.models.LfcContinue;
 import com.kindsonthegenius.thymeleafapp.models.Student;
 import com.kindsonthegenius.thymeleafapp.services.StudentService;
+
 
 
 @Controller
@@ -88,9 +90,9 @@ public class StudentController2 {
 		return new Jsons().getLfcSetMoreDetailList();
 	}
 	
-	@RequestMapping(value="/lfccontinue", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/lfccontsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String onlfcContinue(@RequestBody String pernr,  String elgAmt,  String cont) {
+	public String onlfcContinue(@RequestBody LfcContinue lfc) {
 		return new Jsons().onlfcContinue();
 	}	
 	
