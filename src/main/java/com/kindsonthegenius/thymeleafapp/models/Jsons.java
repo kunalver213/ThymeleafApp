@@ -188,24 +188,37 @@ public class Jsons {
 	public String getLfcRelList() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00150014\",\r\n" + 
+				"        \"pernr\": \"00128667\",\r\n" + 
 				"        \"lfsSetCCode\": null,\r\n" + 
 				"        \"scheme\": null,\r\n" + 
-				"        \"objps\": \"\",\r\n" + 
+				"        \"objps\": null,\r\n" + 
 				"        \"famsa\": \"1/\",\r\n" + 
-				"        \"famsaText\": \"Spouse:Shraddha\",\r\n" + 
-				"        \"elgAmt\": \"112000\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"famsaText\": \"Spouse:harika\",\r\n" + 
+				"        \"elgAmt\": \"600000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"fullName\": \"harika ADIVAREKAR\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00150014\",\r\n" + 
+				"        \"pernr\": \"00128667\",\r\n" + 
 				"        \"lfsSetCCode\": null,\r\n" + 
 				"        \"scheme\": null,\r\n" + 
-				"        \"objps\": \"\",\r\n" + 
-				"        \"famsa\": \"3/\",\r\n" + 
-				"        \"famsaText\": \"Legal guardian:Samadhan\",\r\n" + 
-				"        \"elgAmt\": \"112000\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"objps\": null,\r\n" + 
+				"        \"famsa\": \"2/01\",\r\n" + 
+				"        \"famsaText\": \"Child:Sukhdev\",\r\n" + 
+				"        \"elgAmt\": \"600000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"fullName\": \"Sukhdev ADIVAREKAR\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00128667\",\r\n" + 
+				"        \"lfsSetCCode\": null,\r\n" + 
+				"        \"scheme\": null,\r\n" + 
+				"        \"objps\": null,\r\n" + 
+				"        \"famsa\": \"2/02\",\r\n" + 
+				"        \"famsaText\": \"Child:Shristi\",\r\n" + 
+				"        \"elgAmt\": \"600000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"fullName\": \"Shristi Adivarekar\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -238,9 +251,9 @@ public class Jsons {
 	
 	public String getLfcSetMoreDetailList() {
 		return "{\r\n" + 
-				"    \"pernr\": \"35000 \",\r\n" + 
-				"    \"fromDate\": null,\r\n" + 
-				"    \"toDate\": null,\r\n" + 
+				"    \"pernr\": null,\r\n" + 
+				"    \"fromDate\": \"31.12.2020\",\r\n" + 
+				"    \"toDate\": \"1.12.2020\",\r\n" + 
 				"    \"noTrav\": null,\r\n" + 
 				"    \"elgAmt\": null,\r\n" + 
 				"    \"clmAmt\": null,\r\n" + 
@@ -248,6 +261,7 @@ public class Jsons {
 				"    \"apprAmt\": null,\r\n" + 
 				"    \"taxDed\": null,\r\n" + 
 				"    \"paidAmt\": null,\r\n" + 
+				"    \"lfcSet\": \"1.12.2020-31.12.2020\",\r\n" + 
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}

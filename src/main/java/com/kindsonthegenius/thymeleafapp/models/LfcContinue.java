@@ -18,10 +18,32 @@ public class LfcContinue {
 	private String accept;
 	private String cont;
 	private String msg;	
+	private String lfcSet;	
+	private String entlClsCode;	
+	private String scheme;	
 	private List<LfcContSubmitList> submitexpandSet;
 	private String errorStatus;
 	
 	
+	public String getLfcSet() {
+		return lfcSet;
+	}
+	public void setLfcSet(String lfcSet) {
+		this.lfcSet = lfcSet;
+	}
+	public String getEntlClsCode() {
+		return entlClsCode;
+	}
+	public void setEntlClsCode(String entlClsCode) {
+		this.entlClsCode = entlClsCode;
+	}
+	
+	public String getScheme() {
+		return scheme;
+	}
+	public void setScheme(String scheme) {
+		this.scheme = scheme;
+	}
 	public String getErrorStatus() {
 		return errorStatus;
 	}
@@ -113,5 +135,6 @@ public class LfcContinue {
 	public void setSubmitexpandSet(List<LfcContSubmitList> submitexpandSet) {
 		this.submitexpandSet = submitexpandSet;
 	}
+	
 
 }
