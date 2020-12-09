@@ -296,25 +296,28 @@ public class Jsons {
 	public String getLfcSetDetailList() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000069\",\r\n" + 
-				"        \"fromDate\": \"20150301\",\r\n" + 
-				"        \"toDate\": \"20170228\",\r\n" + 
+				"        \"pernr\": \"00000067\",\r\n" + 
+				"        \"fromDate\": \"20160101\",\r\n" + 
+				"        \"toDate\": \"20171231\",\r\n" + 
 				"        \"status\": \"Available\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"lfcSet\": \"01.01.2016 - 31.12.2017\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000069\",\r\n" + 
-				"        \"fromDate\": \"20170301\",\r\n" + 
-				"        \"toDate\": \"20190228\",\r\n" + 
+				"        \"pernr\": \"00000067\",\r\n" + 
+				"        \"fromDate\": \"20180101\",\r\n" + 
+				"        \"toDate\": \"20191231\",\r\n" + 
 				"        \"status\": \"Available\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"lfcSet\": \"01.01.2018 - 31.12.2019\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000069\",\r\n" + 
-				"        \"fromDate\": \"20190301\",\r\n" + 
-				"        \"toDate\": \"20210228\",\r\n" + 
+				"        \"pernr\": \"00000067\",\r\n" + 
+				"        \"fromDate\": \"20200101\",\r\n" + 
+				"        \"toDate\": \"20211231\",\r\n" + 
 				"        \"status\": \"Available\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"lfcSet\": \"01.01.2020 - 31.12.2021\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -322,16 +325,16 @@ public class Jsons {
 	public String getLfcSetMoreDetailList() {
 		return "{\r\n" + 
 				"    \"pernr\": null,\r\n" + 
-				"    \"fromDate\": \"31.12.2020\",\r\n" + 
-				"    \"toDate\": \"1.12.2020\",\r\n" + 
-				"    \"noTrav\": null,\r\n" + 
-				"    \"elgAmt\": null,\r\n" + 
-				"    \"clmAmt\": null,\r\n" + 
-				"    \"taxbleAmt\": null,\r\n" + 
-				"    \"apprAmt\": null,\r\n" + 
-				"    \"taxDed\": null,\r\n" + 
-				"    \"paidAmt\": null,\r\n" + 
-				"    \"lfcSet\": \"1.12.2020-31.12.2020\",\r\n" + 
+				"    \"fromDate\": \"\",\r\n" + 
+				"    \"toDate\": \"\",\r\n" + 
+				"    \"noTrav\": \"\",\r\n" + 
+				"    \"elgAmt\": \"40000 \",\r\n" + 
+				"    \"clmAmt\": \"35000 \",\r\n" + 
+				"    \"taxbleAmt\": \"35000 \",\r\n" + 
+				"    \"apprAmt\": \"\",\r\n" + 
+				"    \"taxDed\": \"0 \",\r\n" + 
+				"    \"paidAmt\": \"35000 \",\r\n" + 
+				"    \"lfcSet\": null,\r\n" + 
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
