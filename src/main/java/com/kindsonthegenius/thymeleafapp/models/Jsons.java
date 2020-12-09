@@ -185,6 +185,76 @@ public class Jsons {
 				"]";
 	}
 	
+	public String getLfcSchemeList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"scheme\": \"RS\",\r\n" + 
+				"        \"schemeDesc\": \"Rail Scheme\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"scheme\": \"AS\",\r\n" + 
+				"        \"schemeDesc\": \"Air Scheme\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getLfcEntitleList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"01\",\r\n" + 
+				"        \"entlClsDesc\": \"Business Class\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"02\",\r\n" + 
+				"        \"entlClsDesc\": \"Economy Class\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"03\",\r\n" + 
+				"        \"entlClsDesc\": \"AC Tier 1\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"04\",\r\n" + 
+				"        \"entlClsDesc\": \"AC Tier 2\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"05\",\r\n" + 
+				"        \"entlClsDesc\": \"AC Tier 3\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"06\",\r\n" + 
+				"        \"entlClsDesc\": \"Deluxe Cabin\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"07\",\r\n" + 
+				"        \"entlClsDesc\": \"A Cabin\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"entlClsCode\": \"08\",\r\n" + 
+				"        \"entlClsDesc\": \"C Cabin\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
 	public String getLfcRelList() {
 		return "[\r\n" + 
 				"    {\r\n" + 

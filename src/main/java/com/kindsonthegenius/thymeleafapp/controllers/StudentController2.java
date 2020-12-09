@@ -90,6 +90,20 @@ public class StudentController2 {
 		return new Jsons().getLfcSetMoreDetailList();
 	}
 	
+	@RequestMapping(value="/lfcschemelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcSchemeList(@RequestBody String empId) {
+		return new Jsons().getLfcSchemeList();
+	}
+	
+	
+	@RequestMapping(value="/lfcentitlelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getLfcEntitleList(@RequestBody String empId) {
+		return new Jsons().getLfcEntitleList();
+	}
+	
+	
 	@RequestMapping(value="/lfccontsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String onlfcContinue(@RequestBody LfcContinue lfc) {
