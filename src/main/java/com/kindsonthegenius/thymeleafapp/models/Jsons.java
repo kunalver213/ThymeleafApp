@@ -128,7 +128,7 @@ public class Jsons {
 				"        \"rateOfInterest\": \"6.5\",\r\n" + 
 				"        \"prinOutstand\": \"1000000.00\",\r\n" + 
 				"        \"accInterest\": \"     0.00\",\r\n" + 
-				"        \"dateOfSanction\": \"\",\r\n" + 
+				"        \"dateOfSanction\": \"20151028\",\r\n" + 
 				"        \"principleTaken\": \"\",\r\n" + 
 				"        \"totOutstand\": \"1000000.00\",\r\n" + 
 				"        \"errorstatus\": null,\r\n" + 
