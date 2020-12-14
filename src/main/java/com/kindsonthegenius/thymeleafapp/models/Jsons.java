@@ -331,8 +331,8 @@ public class Jsons {
 				"    \"elgAmt\": \"40000 \",\r\n" + 
 				"    \"clmAmt\": \"35000 \",\r\n" + 
 				"    \"taxbleAmt\": \"35000 \",\r\n" + 
-				"    \"apprAmt\": \"\",\r\n" + 
-				"    \"taxDed\": \"0 \",\r\n" + 
+				"    \"apprAmt\": \"20000 \",\r\n" + 
+				"    \"taxDed\": \"500 \",\r\n" + 
 				"    \"paidAmt\": \"35000 \",\r\n" + 
 				"    \"lfcSet\": null,\r\n" + 
 				"    \"errorStatus\": null\r\n" + 
@@ -344,13 +344,13 @@ public class Jsons {
 				"    \"pernr\": \"00012345\",\r\n" + 
 				"    \"elgAmt\": \"60000\",\r\n" + 
 				"    \"totTrav\": \"\",\r\n" + 
-				"    \"totElgAmt\": \"\",\r\n" + 
-				"    \"totClmAmt\": \"\",\r\n" + 
-				"    \"totTaxAmt\": \"\",\r\n" + 
-				"    \"incTax\": \"\",\r\n" + 
+				"    \"totElgAmt\": \"12500\",\r\n" + 
+				"    \"totClmAmt\": \"12500\",\r\n" + 
+				"    \"totTaxAmt\": \"500\",\r\n" + 
+				"    \"incTax\": \"400\",\r\n" + 
 				"    \"eduCess\": \"\",\r\n" + 
-				"    \"totTaxDed\": \"\",\r\n" + 
-				"    \"payAmt\": \"\",\r\n" + 
+				"    \"totTaxDed\": \"400\",\r\n" + 
+				"    \"payAmt\": \"3000\",\r\n" + 
 				"    \"accept\": \"\",\r\n" + 
 				"    \"cont\": \"\",\r\n" + 
 				"    \"msg\": \"\",\r\n" + 
