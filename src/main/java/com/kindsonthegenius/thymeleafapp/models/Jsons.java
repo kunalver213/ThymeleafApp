@@ -348,7 +348,7 @@ public class Jsons {
 				"    \"totClmAmt\": \"12500\",\r\n" + 
 				"    \"totTaxAmt\": \"500\",\r\n" + 
 				"    \"incTax\": \"400\",\r\n" + 
-				"    \"eduCess\": \"\",\r\n" + 
+				"    \"eduCess\": \"250\",\r\n" + 
 				"    \"totTaxDed\": \"400\",\r\n" + 
 				"    \"payAmt\": \"3000\",\r\n" + 
 				"    \"accept\": \"\",\r\n" + 
