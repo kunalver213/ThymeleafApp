@@ -163,7 +163,7 @@ public class Jsons {
 				"    \"dlart\": \"9001\",\r\n" + 
 				"    \"extdl\": \"102583900156985\",\r\n" + 
 				"    \"newemi\": \"60000.00 \",\r\n" + 
-				"    \"msg\": \"Technical Error, Please contact support team with screenshot\",\r\n" + 
+				"    \"msg\": \"Success\",\r\n" + 
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
