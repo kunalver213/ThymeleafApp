@@ -353,7 +353,7 @@ public class Jsons {
 				"    \"payAmt\": \"3000\",\r\n" + 
 				"    \"accept\": \"\",\r\n" + 
 				"    \"cont\": \"\",\r\n" + 
-				"    \"msg\": \"\",\r\n" + 
+				"    \"msg\": \"Success\",\r\n" + 
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
