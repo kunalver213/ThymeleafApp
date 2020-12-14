@@ -129,7 +129,7 @@ public class Jsons {
 				"        \"prinOutstand\": \"1000000.00\",\r\n" + 
 				"        \"accInterest\": \"     0.00\",\r\n" + 
 				"        \"dateOfSanction\": \"20151028\",\r\n" + 
-				"        \"principleTaken\": \"\",\r\n" + 
+				"        \"principleTaken\": \" 15182\",\r\n" + 
 				"        \"totOutstand\": \"1000000.00\",\r\n" + 
 				"        \"errorstatus\": null,\r\n" + 
 				"        \"advancesdetails\": null\r\n" + 
