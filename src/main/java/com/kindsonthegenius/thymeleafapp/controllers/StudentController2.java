@@ -110,4 +110,25 @@ public class StudentController2 {
 		return new Jsons().onlfcContinue();
 	}	
 	
+	
+	@RequestMapping(value="/vigreqtypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getVigReqTypeList(@RequestBody String empId) {
+		return new Jsons().getVigReqTypeList();
+	}	
+	
+	
+	@RequestMapping(value="/vigreqlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getVigReqList(@RequestBody String empId, String reqTypVal) {
+		return new Jsons().getVigReqList();
+	}	
+	
+	
+	@RequestMapping(value="/vigassetypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getVigAsseTypeList(@RequestBody String empId) {
+		return new Jsons().getVigAsseTypeList();
+	}	
+	
 }

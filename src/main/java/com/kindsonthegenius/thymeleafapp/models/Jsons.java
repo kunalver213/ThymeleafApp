@@ -358,4 +358,133 @@ public class Jsons {
 				"}";
 	}
 	
+	public String getVigReqTypeList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"reqTypVal\": \"MOVA\",\r\n" + 
+				"        \"reqTypTxt\": \"Declare purchase of moveable asset\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"reqTypVal\": \"MOVS\",\r\n" + 
+				"        \"reqTypTxt\": \"Declare sale of moveable asset\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getVigReqList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000000\",\r\n" + 
+				"        \"reqTypVal\": \"Purchase\",\r\n" + 
+				"        \"reqTyp\": \"Declare purchase of moveable asset\",\r\n" + 
+				"        \"reqDate\": \"20190125\",\r\n" + 
+				"        \"reqStatus\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000000\",\r\n" + 
+				"        \"reqTypVal\": \"Purchase\",\r\n" + 
+				"        \"reqTyp\": \"Declare purchase of moveable asset\",\r\n" + 
+				"        \"reqDate\": \"20190128\",\r\n" + 
+				"        \"reqStatus\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000000\",\r\n" + 
+				"        \"reqTypVal\": \"Sale\",\r\n" + 
+				"        \"reqTyp\": \"Declare sale of moveable asset\",\r\n" + 
+				"        \"reqDate\": \"20201110\",\r\n" + 
+				"        \"reqStatus\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getVigAsseTypeList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"01\",\r\n" + 
+				"        \"typAsset\": \"PC\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"02\",\r\n" + 
+				"        \"typAsset\": \"Two Wheeler\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"03\",\r\n" + 
+				"        \"typAsset\": \"Four Wheeler\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"04\",\r\n" + 
+				"        \"typAsset\": \"Laptop\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"05\",\r\n" + 
+				"        \"typAsset\": \"Tab\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"06\",\r\n" + 
+				"        \"typAsset\": \"Consumer Article\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"07\",\r\n" + 
+				"        \"typAsset\": \"Precious Metals\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"08\",\r\n" + 
+				"        \"typAsset\": \"Jewellery\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"09\",\r\n" + 
+				"        \"typAsset\": \"Shares\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"10\",\r\n" + 
+				"        \"typAsset\": \"Debentures\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"11\",\r\n" + 
+				"        \"typAsset\": \"Bonds\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"12\",\r\n" + 
+				"        \"typAsset\": \"Education\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000069\",\r\n" + 
+				"        \"assetVal\": \"13\",\r\n" + 
+				"        \"typAsset\": \"Others\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
 }
