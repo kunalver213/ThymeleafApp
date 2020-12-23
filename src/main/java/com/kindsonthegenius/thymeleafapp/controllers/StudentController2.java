@@ -16,7 +16,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.kindsonthegenius.thymeleafapp.models.Jsons;
 import com.kindsonthegenius.thymeleafapp.models.LfcContinue;
 import com.kindsonthegenius.thymeleafapp.models.Student;
+import com.kindsonthegenius.thymeleafapp.models.VigSaveSubmit;
 import com.kindsonthegenius.thymeleafapp.services.StudentService;
+
 
 
 
@@ -129,6 +131,24 @@ public class StudentController2 {
 	@ResponseBody
 	public String getVigAsseTypeList(@RequestBody String empId) {
 		return new Jsons().getVigAsseTypeList();
+	}	
+	
+	@RequestMapping(value="/emppaydatalist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getEmpPayDataList(@RequestBody String empId) {
+		return new Jsons().getEmpPayDataList();
+	}	
+	
+	@RequestMapping(value="/emppayhistlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getEmpPayHistList(@RequestBody String pernr, String fromDate, String toDate, String dateRange) {
+		return new Jsons().getEmpPayHistList();
+	}	
+	
+	@RequestMapping(value="/vigSaveSubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String vigOnSaveSubmit(@RequestBody VigSaveSubmit vig) {
+		return new Jsons().vigOnSaveSubmit();
 	}	
 	
 }

@@ -487,4 +487,374 @@ public class Jsons {
 				"]";
 	}
 	
+	public String getEmpPayDataList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"sentDate\": \"20180103\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"400000.00 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"sentDate\": \"20180103\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"sentDate\": \"20171217\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"sentDate\": \"20171217\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"600000.00 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"sentDate\": \"20171216\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getEmpPayHistList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20160920\",\r\n" + 
+				"        \"payDate\": \"20160920\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170104\",\r\n" + 
+				"        \"payDate\": \"20170104\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"4500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170105\",\r\n" + 
+				"        \"payDate\": \"20170104\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"2000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170105\",\r\n" + 
+				"        \"payDate\": \"20170104\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"2000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170104\",\r\n" + 
+				"        \"payDate\": \"20170104\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"4500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170316\",\r\n" + 
+				"        \"payDate\": \"20170316\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170316\",\r\n" + 
+				"        \"payDate\": \"20170316\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000001\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170720\",\r\n" + 
+				"        \"payDate\": \"20170720\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170720\",\r\n" + 
+				"        \"payDate\": \"20170720\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170725\",\r\n" + 
+				"        \"payDate\": \"20170725\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170726\",\r\n" + 
+				"        \"payDate\": \"20170725\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"2500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170731\",\r\n" + 
+				"        \"payDate\": \"20170731\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20171217\",\r\n" + 
+				"        \"payDate\": \"20171216\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"600000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20171217\",\r\n" + 
+				"        \"payDate\": \"20171216\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"345687659087\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20171216\",\r\n" + 
+				"        \"payDate\": \"20171216\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20180103\",\r\n" + 
+				"        \"payDate\": \"20180102\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"400000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20180103\",\r\n" + 
+				"        \"payDate\": \"20180102\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"345687659087\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20170720\",\r\n" + 
+				"        \"payDate\": \"20170720\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           HL-0000002\",\r\n" + 
+				"        \"payAmt\": \"1000000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"567980986546\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001809\",\r\n" + 
+				"        \"dateRange\": \"\",\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"sentDate\": \"20171216\",\r\n" + 
+				"        \"payDate\": \"20171216\",\r\n" + 
+				"        \"payPartic\": \"Loan-Disbursed           AHL-0000002\",\r\n" + 
+				"        \"payAmt\": \"500000.00 \",\r\n" + 
+				"        \"bankName\": \"\",\r\n" + 
+				"        \"accNo\": \"\",\r\n" + 
+				"        \"utrNo\": \"\",\r\n" + 
+				"        \"payee\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String vigOnSaveSubmit() {
+		return "{\r\n" + 
+				"    \"pernr\": \"00123456\",\r\n" + 
+				"    \"reqTypVal\": null,\r\n" + 
+				"    \"reqTypTxt\": null,\r\n" + 
+				"    \"basicPay\": null,\r\n" + 
+				"    \"assetVal\": null,\r\n" + 
+				"    \"typAsset\": null,\r\n" + 
+				"    \"transDate\": null,\r\n" + 
+				"    \"nameBuyer\": null,\r\n" + 
+				"    \"addParty\": null,\r\n" + 
+				"    \"natBuss\": null,\r\n" + 
+				"    \"transAmt\": null,\r\n" + 
+				"    \"persSav\": null,\r\n" + 
+				"    \"loanRbi\": null,\r\n" + 
+				"    \"loanOth\": null,\r\n" + 
+				"    \"nameOthInst\": null,\r\n" + 
+				"    \"loanOthBrk\": null,\r\n" + 
+				"    \"contriSpouse\": null,\r\n" + 
+				"    \"contriRem\": null,\r\n" + 
+				"    \"other\": null,\r\n" + 
+				"    \"othDet\": null,\r\n" + 
+				"    \"brokAmt\": null,\r\n" + 
+				"    \"brokDet\": null,\r\n" + 
+				"    \"acqui\": null,\r\n" + 
+				"    \"acquiRep\": null,\r\n" + 
+				"    \"acquiDate\": null,\r\n" + 
+				"    \"repDate\": null,\r\n" + 
+				"    \"repOffice\": null,\r\n" + 
+				"    \"acquiRem\": null,\r\n" + 
+				"    \"reasLateRep\": null,\r\n" + 
+				"    \"attachDesc\": null,\r\n" + 
+				"    \"attachFile\": null,\r\n" + 
+				"    \"empComm\": null,\r\n" + 
+				"    \"save\": null,\r\n" + 
+				"    \"msg\": \"Success\",\r\n" + 
+				"    \"vigAttachSet\": null,\r\n" + 
+				"    \"errorStatus\": null\r\n" + 
+				"}";
+	}
 }
