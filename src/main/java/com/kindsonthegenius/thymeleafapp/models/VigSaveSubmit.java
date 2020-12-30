@@ -1,6 +1,7 @@
 package com.kindsonthegenius.thymeleafapp.models;
 
 
+
 import java.util.List;
 
 public class VigSaveSubmit {
@@ -265,7 +266,8 @@ class VigAttachSet {
 
 	private String pernr;
 	private String fileName;
-	private String delInd;
+	private String fileType;
+	private String fileContent;
 
 	public String getPernr() {
 		return pernr;
@@ -283,12 +285,21 @@ class VigAttachSet {
 		this.fileName = fileName;
 	}
 
-	public String getDelInd() {
-		return delInd;
+	public String getFileType() {
+		return fileType;
 	}
 
-	public void setDelInd(String delInd) {
-		this.delInd = delInd;
+	public void setFileType(String fileType) {
+		this.fileType = fileType;
 	}
+
+	public String getFileContent() {
+		return fileContent;
+	}
+
+	public void setFileContent(String fileContent) {
+		this.fileContent = fileContent;
+	}
+	
 
 }
