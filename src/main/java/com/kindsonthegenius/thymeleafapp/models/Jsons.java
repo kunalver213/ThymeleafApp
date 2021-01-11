@@ -857,4 +857,277 @@ public class Jsons {
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
+
+	public String getPmsCls1Dash() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001620\",\r\n" + 
+				"        \"appYear\": \"2021-22\",\r\n" + 
+				"        \"kraStatus\": \"Completed\",\r\n" + 
+				"        \"apprStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"96\",\r\n" + 
+				"        \"rating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001620\",\r\n" + 
+				"        \"appYear\": \"2020-21\",\r\n" + 
+				"        \"kraStatus\": \"Completed\",\r\n" + 
+				"        \"apprStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"86\",\r\n" + 
+				"        \"rating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001620\",\r\n" + 
+				"        \"appYear\": \"2019-20\",\r\n" + 
+				"        \"kraStatus\": \"Completed\",\r\n" + 
+				"        \"apprStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"76\",\r\n" + 
+				"        \"rating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00001620\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"kraStatus\": \"Completed\",\r\n" + 
+				"        \"apprStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"66 \",\r\n" + 
+				"        \"rating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getPmsCls1List() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"87\",\r\n" + 
+				"        \"roName\": \"Rajiva Husband\",\r\n" + 
+				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
+				"        \"kra\": \"1\",\r\n" + 
+				"        \"kraWeight\": \"25 \",\r\n" + 
+				"        \"kraTitle\": \"\",\r\n" + 
+				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"ok\",\r\n" + 
+				"        \"rvoComm\": \"66 \",\r\n" + 
+				"        \"roRating\": \"1 \",\r\n" + 
+				"        \"rvoRating\": \"0 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"87\",\r\n" + 
+				"        \"roName\": \"Rajiva Husband\",\r\n" + 
+				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
+				"        \"kra\": \"2\",\r\n" + 
+				"        \"kraWeight\": \"25 \",\r\n" + 
+				"        \"kraTitle\": \"\",\r\n" + 
+				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"ok\",\r\n" + 
+				"        \"rvoComm\": \"66 \",\r\n" + 
+				"        \"roRating\": \"1 \",\r\n" + 
+				"        \"rvoRating\": \"0 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"87\",\r\n" + 
+				"        \"roName\": \"Rajiva Husband\",\r\n" + 
+				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
+				"        \"kra\": \"3\",\r\n" + 
+				"        \"kraWeight\": \"25 \",\r\n" + 
+				"        \"kraTitle\": \"\",\r\n" + 
+				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"ok\",\r\n" + 
+				"        \"rvoComm\": \"66 \",\r\n" + 
+				"        \"roRating\": \"1 \",\r\n" + 
+				"        \"rvoRating\": \"0 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"87\",\r\n" + 
+				"        \"roName\": \"Rajiva Husband\",\r\n" + 
+				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
+				"        \"kra\": \"4\",\r\n" + 
+				"        \"kraWeight\": \"25 \",\r\n" + 
+				"        \"kraTitle\": \"\",\r\n" + 
+				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"ok\",\r\n" + 
+				"        \"rvoComm\": \"66 \",\r\n" + 
+				"        \"roRating\": \"1 \",\r\n" + 
+				"        \"rvoRating\": \"0 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getPmsCls3Dash() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"20180701\",\r\n" + 
+				"        \"endDate\": \"20190630\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Initiated by Nodal Officer\",\r\n" + 
+				"        \"roMarks\": \"0.00 \",\r\n" + 
+				"        \"rvoMarks\": \"0.00 \",\r\n" + 
+				"        \"roName\": \"Reporting1 Manager\",\r\n" + 
+				"        \"rvoName\": \"RR ADM1\",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"20190701\",\r\n" + 
+				"        \"endDate\": \"20200630\",\r\n" + 
+				"        \"appYear\": \"2019-20\",\r\n" + 
+				"        \"appStatus\": \"Initiated by Nodal Officer\",\r\n" + 
+				"        \"roMarks\": \"0.00 \",\r\n" + 
+				"        \"rvoMarks\": \"0.00 \",\r\n" + 
+				"        \"roName\": \"Reporting1 Manager\",\r\n" + 
+				"        \"rvoName\": \"\",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
+	public String getPmsCls3List() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"General Intelligence, Knowledge of work, rules, procedures etc.\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Promptness, Accuracy and speed in disposal of work\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Communication skills - Oral/Written communication***\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Drafting Ability* / Alertness / Vigilance**\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Inter-personal skills\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Attitude and commitment to work\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Ability\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Application, Keenness, Enthusiasm and Devotion to duty\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Ability to work in computerized environment\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000140\",\r\n" + 
+				"        \"startDate\": \"01072018\",\r\n" + 
+				"        \"endDate\": \"30062019\",\r\n" + 
+				"        \"title\": \"Promise & Potential to take on higher responsibilities\",\r\n" + 
+				"        \"roRating\": \"\",\r\n" + 
+				"        \"roComm\": \"\",\r\n" + 
+				"        \"rvoRating\": \"\",\r\n" + 
+				"        \"rvoComm\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+	
 }

@@ -151,4 +151,28 @@ public class StudentController2 {
 		return new Jsons().vigOnSaveSubmit();
 	}	
 	
+	@RequestMapping(value="/pmscls1dash", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getPmsCls1Dash(@RequestBody String empId) {
+		return new Jsons().getPmsCls1Dash();
+	}	
+	
+	@RequestMapping(value="/pmscls1list", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getPmsCls1List(@RequestBody String pernr, String appYear, String marks) {
+		return new Jsons().getPmsCls1List();
+	}	
+	
+	@RequestMapping(value="/pmscls3dash", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getPmsCls3Dash(@RequestBody String empId) {
+		return new Jsons().getPmsCls3Dash();
+	}	
+	
+	@RequestMapping(value="/pmscls3list", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getPmsCls3List(@RequestBody String pernr, String startDate, String endDate) {
+		return new Jsons().getPmsCls3List();
+	}	
+	
 }
