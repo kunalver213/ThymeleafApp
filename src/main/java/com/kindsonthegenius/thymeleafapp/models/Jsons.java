@@ -108,8 +108,8 @@ public class Jsons {
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"pernr\": \"00150014\",\r\n" + 
-				"        \"loanType\": \"9004\",\r\n" + 
-				"        \"reason\": \"\",\r\n" + 
+				"        \"loanType\": \"9007\",\r\n" + 
+				"        \"reason\": \"Education\",\r\n" + 
 				"        \"loanAccNo\": \"1000000000113\",\r\n" + 
 				"        \"rateOfInterest\": \"6.5\",\r\n" + 
 				"        \"prinOutstand\": \" 15182.00\",\r\n" + 
