@@ -236,5 +236,11 @@ public class StudentController2 {
 		return new Jsons().getTrnInputPrefyear();
 	} 
 	
+	@RequestMapping(value="/trninputduration", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputDuration(@RequestBody String empId) {
+		return new Jsons().getTrnInputDuration();
+	} 
+	
 	
 }

@@ -1611,5 +1611,161 @@ public class Jsons {
 				"    }\r\n" + 
 				"]";
 	}
+
+	public String getTrnInputDuration() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"1 \",\r\n" + 
+				"        \"durationVal\": \"1 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"2 \",\r\n" + 
+				"        \"durationVal\": \"2 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"3 \",\r\n" + 
+				"        \"durationVal\": \"3 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"4 \",\r\n" + 
+				"        \"durationVal\": \"4 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"5 \",\r\n" + 
+				"        \"durationVal\": \"5 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"6 \",\r\n" + 
+				"        \"durationVal\": \"6 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"7 \",\r\n" + 
+				"        \"durationVal\": \"7 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"8 \",\r\n" + 
+				"        \"durationVal\": \"8 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"9 \",\r\n" + 
+				"        \"durationVal\": \"9 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"10 \",\r\n" + 
+				"        \"durationVal\": \"10 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"11 \",\r\n" + 
+				"        \"durationVal\": \"11 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"12 \",\r\n" + 
+				"        \"durationVal\": \"12 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"13 \",\r\n" + 
+				"        \"durationVal\": \"13 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"14 \",\r\n" + 
+				"        \"durationVal\": \"14 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"15 \",\r\n" + 
+				"        \"durationVal\": \"15 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"16 \",\r\n" + 
+				"        \"durationVal\": \"16 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"17 \",\r\n" + 
+				"        \"durationVal\": \"17 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"18 \",\r\n" + 
+				"        \"durationVal\": \"18 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"19 \",\r\n" + 
+				"        \"durationVal\": \"19 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"20 \",\r\n" + 
+				"        \"durationVal\": \"20 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"21 \",\r\n" + 
+				"        \"durationVal\": \"21 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"22 \",\r\n" + 
+				"        \"durationVal\": \"22 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"23 \",\r\n" + 
+				"        \"durationVal\": \"23 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"24 \",\r\n" + 
+				"        \"durationVal\": \"24 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"25 \",\r\n" + 
+				"        \"durationVal\": \"25 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"26 \",\r\n" + 
+				"        \"durationVal\": \"26 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"27 \",\r\n" + 
+				"        \"durationVal\": \"27 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"28 \",\r\n" + 
+				"        \"durationVal\": \"28 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"29 \",\r\n" + 
+				"        \"durationVal\": \"29 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"durationCode\": \"30 \",\r\n" + 
+				"        \"durationVal\": \"30 \",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 	
 }
