@@ -209,7 +209,7 @@ public class StudentController2 {
 	@RequestMapping(value="/trninputcategory", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getTrnInputCategory(@RequestBody String empId) {
-		return new Jsons().getTrnLocationList();
+		return new Jsons().getTrnInputCategory();
 	} 
 
 	@RequestMapping(value="/trninputsubcat", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
