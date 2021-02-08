@@ -1129,5 +1129,487 @@ public class Jsons {
 				"    }\r\n" + 
 				"]";
 	}
+
+	public String getTrnLocationList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"locName\": \"RBI Training Calendar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50008838\",\r\n" + 
+				"        \"locName\": \"RBI_TEST\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50010950\",\r\n" + 
+				"        \"locName\": \"CAB Pune\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50025188\",\r\n" + 
+				"        \"locName\": \" Foreign External Training\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnCourseCategory() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"catCode\": \"50005328\",\r\n" + 
+				"        \"catName\": \"Calendar of Programmes - Chennai\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"catCode\": \"50008845\",\r\n" + 
+				"        \"catName\": \"STAFF_COL\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"catCode\": \"50012285\",\r\n" + 
+				"        \"catName\": \"Grade B Direct Recruit\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"catCode\": \"50009007\",\r\n" + 
+				"        \"catName\": \"Role Based Supervision\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"locCode\": \"50005327\",\r\n" + 
+				"        \"catCode\": \"50009032\",\r\n" + 
+				"        \"catName\": \"RBI_College_Staff\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnCourseSubcat() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"catCode\": \"50012285\",\r\n" + 
+				"        \"subcatCode\": \"50012281\",\r\n" + 
+				"        \"subcatName\": \"Foundation module and Functional module\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"catCode\": \"50012285\",\r\n" + 
+				"        \"subcatCode\": \"50012282\",\r\n" + 
+				"        \"subcatName\": \"On-the-Job training\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"catCode\": \"50012285\",\r\n" + 
+				"        \"subcatCode\": \"50012283\",\r\n" + 
+				"        \"subcatName\": \"Soft Skill Module\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"catCode\": \"50012285\",\r\n" + 
+				"        \"subcatCode\": \"50012284\",\r\n" + 
+				"        \"subcatName\": \"Exposure to regularory bodies Attachment\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnTypeList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40000233\",\r\n" + 
+				"        \"trainTypName\": \"CAB PUNE\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40000293\",\r\n" + 
+				"        \"trainTypName\": \"CAB PUNE\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40031326\",\r\n" + 
+				"        \"trainTypName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40031381\",\r\n" + 
+				"        \"trainTypName\": \"Mumbai\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40031391\",\r\n" + 
+				"        \"trainTypName\": \"Mumbai\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40031401\",\r\n" + 
+				"        \"trainTypName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"40031471\",\r\n" + 
+				"        \"trainTypName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50005332\",\r\n" + 
+				"        \"trainTypName\": \"Chennai\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50009006\",\r\n" + 
+				"        \"trainTypName\": \"C-8 _ Mum_Role Based Supervision\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50011337\",\r\n" + 
+				"        \"trainTypName\": \"CAB_Pune\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50025119\",\r\n" + 
+				"        \"trainTypName\": \"External Dom Training_Mumbai\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50025194\",\r\n" + 
+				"        \"trainTypName\": \"London, UK _ FT\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50025843\",\r\n" + 
+				"        \"trainTypName\": \"London, UK _10 Conference\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50029466\",\r\n" + 
+				"        \"trainTypName\": \"CAB_Pune\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50031383\",\r\n" + 
+				"        \"trainTypName\": \"CAB PUNE\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50031385\",\r\n" + 
+				"        \"trainTypName\": \"test\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50031389\",\r\n" + 
+				"        \"trainTypName\": \"test1\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"trainTypCode\": \"50031568\",\r\n" + 
+				"        \"trainTypName\": \"Domestic Internal\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnProgList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"subcatCode\": \"50012282\",\r\n" + 
+				"        \"trainTypName\": \"Domestic External\",\r\n" + 
+				"        \"startDate\": \"01.01.2021\",\r\n" + 
+				"        \"endDate\": \"31.01.2021\",\r\n" + 
+				"        \"prgmName\": \"Customized Training Programme on Agri-fi\",\r\n" + 
+				"        \"type\": \"Classroom Training\",\r\n" + 
+				"        \"complexity\": \"Low\",\r\n" + 
+				"        \"dates\": \"06.01.2021 - 24.01.2021\",\r\n" + 
+				"        \"location\": \"Domestic External\",\r\n" + 
+				"        \"eligibility\": \"\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"subcatCode\": \"50012282\",\r\n" + 
+				"        \"trainTypName\": \"Domestic Internal\",\r\n" + 
+				"        \"startDate\": \"01.01.2021\",\r\n" + 
+				"        \"endDate\": \"31.01.2021\",\r\n" + 
+				"        \"prgmName\": \"State Focussed Programme on Agri-financi\",\r\n" + 
+				"        \"type\": \"Virtual Training\",\r\n" + 
+				"        \"complexity\": \"High\",\r\n" + 
+				"        \"dates\": \"15.01.2021 - 22.01.2021\",\r\n" + 
+				"        \"location\": \"Domestic Internal\",\r\n" + 
+				"        \"eligibility\": \"\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnInputCategory() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1001\",\r\n" + 
+				"        \"grpText\": \"Banking Department\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1002\",\r\n" + 
+				"        \"grpText\": \"General or Broad Spectrum\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1003\",\r\n" + 
+				"        \"grpText\": \"Currency Management\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1004\",\r\n" + 
+				"        \"grpText\": \"Financial Market\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1005\",\r\n" + 
+				"        \"grpText\": \"Human Resource\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1006\",\r\n" + 
+				"        \"grpText\": \"Information Technology\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1007\",\r\n" + 
+				"        \"grpText\": \"Macro Economics and Statistics\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1008\",\r\n" + 
+				"        \"grpText\": \"Payment System\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1009\",\r\n" + 
+				"        \"grpText\": \"Regulation and Supervision\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1010\",\r\n" + 
+				"        \"grpText\": \"MSME Financing\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1011\",\r\n" + 
+				"        \"grpText\": \"Financial inclusion\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"grpCode\": \"1012\",\r\n" + 
+				"        \"grpText\": \"Agricultural Finance\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnInputSubcat() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2001\",\r\n" + 
+				"        \"objText\": \"RBI Balance Sheet\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2001\",\r\n" + 
+				"        \"objText\": \"RBI Balance Sheet\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2002\",\r\n" + 
+				"        \"objText\": \"Banking Department\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2003\",\r\n" + 
+				"        \"objText\": \"Annual Closing\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2004\",\r\n" + 
+				"        \"objText\": \"Retirement Planning\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2005\",\r\n" + 
+				"        \"objText\": \"Induction\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2006\",\r\n" + 
+				"        \"objText\": \"Central Banking\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2007\",\r\n" + 
+				"        \"objText\": \"Rajbhasha\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2008\",\r\n" + 
+				"        \"objText\": \"Acts\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"objCode\": \"2009\",\r\n" + 
+				"        \"objText\": \"Communication Skills\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnInputComplexity() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"complxCode\": \"MD\",\r\n" + 
+				"        \"complxVal\": \"Basic\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"complxCode\": \"LC\",\r\n" + 
+				"        \"complxVal\": \"Intermediate\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"complxCode\": \"ST\",\r\n" + 
+				"        \"complxVal\": \"Advance\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnInputPrefmonth() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"01\",\r\n" + 
+				"        \"monthVal\": \"January\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"02\",\r\n" + 
+				"        \"monthVal\": \"February\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"03\",\r\n" + 
+				"        \"monthVal\": \"March\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"04\",\r\n" + 
+				"        \"monthVal\": \"April\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"05\",\r\n" + 
+				"        \"monthVal\": \"May\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"06\",\r\n" + 
+				"        \"monthVal\": \"June\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"07\",\r\n" + 
+				"        \"monthVal\": \"July\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"08\",\r\n" + 
+				"        \"monthVal\": \"August\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"09\",\r\n" + 
+				"        \"monthVal\": \"September\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"10\",\r\n" + 
+				"        \"monthVal\": \"October\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"11\",\r\n" + 
+				"        \"monthVal\": \"November\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"monthCode\": \"12\",\r\n" + 
+				"        \"monthVal\": \"December\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getTrnInputPrefyear() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"yearCode\": \"1 \",\r\n" + 
+				"        \"yearVal\": \"2021\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"yearCode\": \"2 \",\r\n" + 
+				"        \"yearVal\": \"2022\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"yearCode\": \"3 \",\r\n" + 
+				"        \"yearVal\": \"2023\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"yearCode\": \"4 \",\r\n" + 
+				"        \"yearVal\": \"2024\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 	
 }

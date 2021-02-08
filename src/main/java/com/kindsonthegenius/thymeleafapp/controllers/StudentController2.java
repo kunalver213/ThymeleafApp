@@ -175,4 +175,66 @@ public class StudentController2 {
 		return new Jsons().getPmsCls3List();
 	}	
 	
+	/*********************/
+	@RequestMapping(value="/trnlocationlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnLocationList(@RequestBody String empId) {
+		return new Jsons().getTrnLocationList();
+	}	
+	
+	@RequestMapping(value="/trncoursecategory", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnCourseCategory(@RequestBody String pernr, String locCode) {
+		return new Jsons().getTrnCourseCategory();
+	}	
+	
+	@RequestMapping(value="/trncoursesubcat", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnCourseSubcat(@RequestBody String pernr, String catCode) {
+		return new Jsons().getTrnCourseSubcat();
+	}	
+	
+	@RequestMapping(value="/trntypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnTypeList(@RequestBody String pernr) {
+		return new Jsons().getTrnTypeList();
+	}
+	
+	@RequestMapping(value="/trnproglist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnProgList(@RequestBody String pernr, String subcatCode) {
+		return new Jsons().getTrnProgList();
+	}
+	
+	@RequestMapping(value="/trninputcategory", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputCategory(@RequestBody String empId) {
+		return new Jsons().getTrnLocationList();
+	} 
+
+	@RequestMapping(value="/trninputsubcat", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputSubcat(@RequestBody String empId) {
+		return new Jsons().getTrnInputSubcat();
+	} 
+	
+	@RequestMapping(value="/trninputcomplexity", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputComplexity(@RequestBody String empId) {
+		return new Jsons().getTrnInputComplexity();
+	} 
+	
+	@RequestMapping(value="/trninputprefmonth", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputPrefmonth(@RequestBody String empId) {
+		return new Jsons().getTrnInputPrefmonth();
+	} 
+	
+	@RequestMapping(value="/trninputprefyear", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnInputPrefyear(@RequestBody String empId) {
+		return new Jsons().getTrnInputPrefyear();
+	} 
+	
+	
 }
