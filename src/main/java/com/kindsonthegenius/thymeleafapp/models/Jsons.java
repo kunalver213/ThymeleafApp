@@ -296,28 +296,64 @@ public class Jsons {
 	public String getLfcSetDetailList() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000067\",\r\n" + 
-				"        \"fromDate\": \"20160101\",\r\n" + 
-				"        \"toDate\": \"20171231\",\r\n" + 
+				"        \"pernr\": \"00102573\",\r\n" + 
+				"        \"fromDate\": \"18.06.2019\",\r\n" + 
+				"        \"toDate\": \"17.06.2021\",\r\n" + 
 				"        \"status\": \"Available\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"lfcSet\": \"01.01.2016 - 31.12.2017\"\r\n" + 
+				"        \"lfcSet\": \"18.06.2019 - 17.06.2021\",\r\n" + 
+				"        \"scheme\": \"abc\",\r\n" + 
+				"        \"entclsCode\": \"abc\",\r\n" + 
+				"        \"entcls\": \"abc\",\r\n" + 
+				"        \"doubleSet\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000067\",\r\n" + 
-				"        \"fromDate\": \"20180101\",\r\n" + 
-				"        \"toDate\": \"20191231\",\r\n" + 
+				"        \"pernr\": \"00102573\",\r\n" + 
+				"        \"fromDate\": \"18.06.2017\",\r\n" + 
+				"        \"toDate\": \"17.06.2019\",\r\n" + 
 				"        \"status\": \"Available\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"lfcSet\": \"01.01.2018 - 31.12.2019\"\r\n" + 
+				"        \"lfcSet\": \"18.06.2017 - 17.06.2019\",\r\n" + 
+				"        \"scheme\": \"abc\",\r\n" + 
+				"        \"entclsCode\": \"abc\",\r\n" + 
+				"        \"entcls\": \"abc\",\r\n" + 
+				"        \"doubleSet\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000067\",\r\n" + 
-				"        \"fromDate\": \"20200101\",\r\n" + 
-				"        \"toDate\": \"20211231\",\r\n" + 
-				"        \"status\": \"Available\",\r\n" + 
+				"        \"pernr\": \"00102573\",\r\n" + 
+				"        \"fromDate\": \"18.06.2015\",\r\n" + 
+				"        \"toDate\": \"17.06.2017\",\r\n" + 
+				"        \"status\": \"Expired\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"lfcSet\": \"01.01.2020 - 31.12.2021\"\r\n" + 
+				"        \"lfcSet\": \"18.06.2015 - 17.06.2017\",\r\n" + 
+				"        \"scheme\": \"abc\",\r\n" + 
+				"        \"entclsCode\": \"abc\",\r\n" + 
+				"        \"entcls\": \"abc\",\r\n" + 
+				"        \"doubleSet\": \"abc\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00102573\",\r\n" + 
+				"        \"fromDate\": \"18.06.2013\",\r\n" + 
+				"        \"toDate\": \"17.06.2015\",\r\n" + 
+				"        \"status\": \"Availed\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"lfcSet\": \"18.06.2013 - 17.06.2015\",\r\n" + 
+				"        \"scheme\": \"abc\",\r\n" + 
+				"        \"entclsCode\": \"abc\",\r\n" + 
+				"        \"entcls\": \"abc\",\r\n" + 
+				"        \"doubleSet\": \"abc\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00102573\",\r\n" + 
+				"        \"fromDate\": \"18.06.2011\",\r\n" + 
+				"        \"toDate\": \"17.06.2013\",\r\n" + 
+				"        \"status\": \"Expired\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"lfcSet\": \"18.06.2011 - 17.06.2013\",\r\n" + 
+				"        \"scheme\": \"abc\",\r\n" + 
+				"        \"entclsCode\": \"abc\",\r\n" + 
+				"        \"entcls\": \"abc\",\r\n" + 
+				"        \"doubleSet\": \"abc\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
