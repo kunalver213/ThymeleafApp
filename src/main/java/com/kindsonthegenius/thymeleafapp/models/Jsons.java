@@ -1817,7 +1817,7 @@ public class Jsons {
 	public String getTrnSubmit() {
 		// TODO Auto-generated method stub
 		return "{\r\n" + 
-		"    \"msg\": \"Success\",\r\n" + 
+		"    \"msg\": \"Success\"\r\n" + 
 		"}";
 	}
 	
