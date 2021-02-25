@@ -1767,5 +1767,15 @@ public class Jsons {
 				"    }\r\n" + 
 				"]";
 	}
+
+	public String getPmsEmpCls() {
+		// TODO Auto-generated method stub
+		return "{\r\n" + 
+				"    \"pernr\": \"00000002\",\r\n" + 
+				"    \"classx\": \"1\",\r\n" + 
+				"    \"grade\": \"DP\",\r\n" + 
+				"    \"errorStatus\": null\r\n" + 
+				"}";
+	}
 	
 }

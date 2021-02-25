@@ -175,6 +175,12 @@ public class StudentController2 {
 		return new Jsons().getPmsCls3List();
 	}	
 	
+	@RequestMapping(value="/pmsempcls", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getPmsEmpCls(@RequestBody String pernr, String startDate, String endDate) {
+		return new Jsons().getPmsEmpCls();
+	}	
+	
 	/*********************/
 	@RequestMapping(value="/trnlocationlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
