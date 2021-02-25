@@ -1813,5 +1813,12 @@ public class Jsons {
 				"    \"errorStatus\": null\r\n" + 
 				"}";
 	}
+
+	public String getTrnSubmit() {
+		// TODO Auto-generated method stub
+		return "{\r\n" + 
+		"    \"msg\": \"Success\",\r\n" + 
+		"}";
+	}
 	
 }

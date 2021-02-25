@@ -248,5 +248,10 @@ public class StudentController2 {
 		return new Jsons().getTrnInputDuration();
 	} 
 	
+	@RequestMapping(value="/trninputsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getTrnSubmit(@RequestBody String empId) {
+		return new Jsons().getTrnSubmit();
+	} 
 	
 }
