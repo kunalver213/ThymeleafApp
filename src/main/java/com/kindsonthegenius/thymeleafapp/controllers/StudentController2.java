@@ -263,7 +263,7 @@ public class StudentController2 {
 	} 
 
 	
-	@RequestMapping(value="/trninputsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/alotpropertylist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotPropertyList(@RequestBody String locVal, String typVal) {
 		return new Jsons().getAlotPropertyList();
