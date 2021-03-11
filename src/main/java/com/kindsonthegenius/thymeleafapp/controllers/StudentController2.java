@@ -283,13 +283,13 @@ public class StudentController2 {
 		return new Jsons().getAlotPropertyAmenties();
 	} 
 	
-	@RequestMapping(value="/alotpropertyamenties", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/alotunitdetails", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotUnitDetails(@RequestBody String propId) {
 		return new Jsons().getAlotUnitDetails();
 	} 
 		
-	@RequestMapping(value="/alotpropertyamenties", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/alotpropertyimg", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotPropertyImg(@RequestBody String propId) {
 		return new Jsons().getAlotPropertyImg();
