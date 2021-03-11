@@ -254,4 +254,47 @@ public class StudentController2 {
 		return new Jsons().getTrnSubmit();
 	} 
 	
+
+	
+	@RequestMapping(value="/alotpropertytypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotPropertyTypeList(@RequestBody String empId) {
+		return new Jsons().getAlotPropertyTypeList();
+	} 
+
+	
+	@RequestMapping(value="/trninputsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotPropertyList(@RequestBody String locVal, String typVal) {
+		return new Jsons().getAlotPropertyList();
+	} 
+
+	
+	@RequestMapping(value="/alotlocationtypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotLocationTypeList(@RequestBody String empId) {
+		return new Jsons().getAlotLocationTypeList();
+	} 
+
+
+	@RequestMapping(value="/alotpropertyamenties", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotPropertyAmenties(@RequestBody String propId) {
+		return new Jsons().getAlotPropertyAmenties();
+	} 
+	
+	@RequestMapping(value="/alotpropertyamenties", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotUnitDetails(@RequestBody String propId) {
+		return new Jsons().getAlotUnitDetails();
+	} 
+		
+	@RequestMapping(value="/alotpropertyamenties", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotPropertyImg(@RequestBody String propId) {
+		return new Jsons().getAlotPropertyImg();
+	} 
+ 
+	
+	
 }

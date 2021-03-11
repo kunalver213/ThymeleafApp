@@ -1820,5 +1820,519 @@ public class Jsons {
 		"    \"msg\": \"Success\"\r\n" + 
 		"}";
 	}
+
+	public String getAlotPropertyTypeList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"typName\": \"Residential\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"typVal\": \"OFF\",\r\n" + 
+				"        \"typName\": \"Office\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"typVal\": \"LND\",\r\n" + 
+				"        \"typName\": \"Land\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"typVal\": \"HH\",\r\n" + 
+				"        \"typName\": \"Holiday Home\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotPropertyList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"0005\",\r\n" + 
+				"        \"propName\": \"MUMBAI PROPERTY 5\",\r\n" + 
+				"        \"propLoc\": \"SHIRDI\",\r\n" + 
+				"        \"propAdd\": \"SUN-N-SAND, VILLAGE-NIGHOJ TAL. KOPERGAON\",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"0006\",\r\n" + 
+				"        \"propName\": \"MUMBAI PROPERTY 6\",\r\n" + 
+				"        \"propLoc\": \"BANDRA\",\r\n" + 
+				"        \"propAdd\": \"BANDRA BANDRA\",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"MUMB100007\",\r\n" + 
+				"        \"propName\": \"Moraj\",\r\n" + 
+				"        \"propLoc\": \"Moraj\",\r\n" + 
+				"        \"propAdd\": \"Moraj Moraj\",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"VIM001\",\r\n" + 
+				"        \"propName\": \"test mumbai, 12334566\",\r\n" + 
+				"        \"propLoc\": \"\",\r\n" + 
+				"        \"propAdd\": \"test mumbai, 12334566, yeyyyy \",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"MUMB10001\",\r\n" + 
+				"        \"propName\": \"Kalyani RBI officers quarters\",\r\n" + 
+				"        \"propLoc\": \"Shivajinagar\",\r\n" + 
+				"        \"propAdd\": \"Ganeshkhind rd Shivajinagar\",\r\n" + 
+				"        \"propComm\": \"Car\",\r\n" + 
+				"        \"propConn\": \"None\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"MUMB10002\",\r\n" + 
+				"        \"propName\": \"Ashiyana RBI officers quarters\",\r\n" + 
+				"        \"propLoc\": \"Gokhale Nagar\",\r\n" + 
+				"        \"propAdd\": \"390 Gokhale nagar rd \",\r\n" + 
+				"        \"propComm\": \"Bus\",\r\n" + 
+				"        \"propConn\": \"None\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"MUMB10003\",\r\n" + 
+				"        \"propName\": \"Teesta RBI officers quarters\",\r\n" + 
+				"        \"propLoc\": \"Shivajinagar\",\r\n" + 
+				"        \"propAdd\": \"Ganeshkhind rd Shivajinagar\",\r\n" + 
+				"        \"propComm\": \"Train\",\r\n" + 
+				"        \"propConn\": \"None\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"MUMB10004\",\r\n" + 
+				"        \"propName\": \"Gomati RBI Staff quarters\",\r\n" + 
+				"        \"propLoc\": \"Shivajinagar\",\r\n" + 
+				"        \"propAdd\": \"Ganeshkhind rd Shivajinagar\",\r\n" + 
+				"        \"propComm\": \"Plane\",\r\n" + 
+				"        \"propConn\": \"None\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"0110\",\r\n" + 
+				"        \"propName\": \"RBI Kurla Q\",\r\n" + 
+				"        \"propLoc\": \"Kurla Mumbai\",\r\n" + 
+				"        \"propAdd\": \"Kurla 1 Kurla 2\",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"typVal\": \"RES\",\r\n" + 
+				"        \"propId\": \"BANGHH1\",\r\n" + 
+				"        \"propName\": \"test case 1\",\r\n" + 
+				"        \"propLoc\": \"\",\r\n" + 
+				"        \"propAdd\": \"test mumbai , test 12345 test 543221\",\r\n" + 
+				"        \"propComm\": \"\",\r\n" + 
+				"        \"propConn\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotLocationTypeList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"AGAR\",\r\n" + 
+				"        \"locName\": \"Agartala\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"AHMD\",\r\n" + 
+				"        \"locName\": \"Ahmedabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"AIZA\",\r\n" + 
+				"        \"locName\": \"Aizawl\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"BANG\",\r\n" + 
+				"        \"locName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"BHOP\",\r\n" + 
+				"        \"locName\": \"Bhopal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"BUBA\",\r\n" + 
+				"        \"locName\": \"Bhubaneswar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"CGHR\",\r\n" + 
+				"        \"locName\": \"Chandigarh\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"CHEN\",\r\n" + 
+				"        \"locName\": \"Chennai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"DDUN\",\r\n" + 
+				"        \"locName\": \"Dehradun\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"DELH\",\r\n" + 
+				"        \"locName\": \"New Delhi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"DICG\",\r\n" + 
+				"        \"locName\": \"Mumbai-DICGC\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"GANG\",\r\n" + 
+				"        \"locName\": \"Gangtok\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"GUWA\",\r\n" + 
+				"        \"locName\": \"Guwahati\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"HYDE\",\r\n" + 
+				"        \"locName\": \"Hyderabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"IMPH\",\r\n" + 
+				"        \"locName\": \"Imphal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"JAIP\",\r\n" + 
+				"        \"locName\": \"Jaipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"JMMU\",\r\n" + 
+				"        \"locName\": \"Jammu\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"KANP\",\r\n" + 
+				"        \"locName\": \"Kanpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"KCHI\",\r\n" + 
+				"        \"locName\": \"Kochi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"KOLK\",\r\n" + 
+				"        \"locName\": \"Kolkata\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"LUCK\",\r\n" + 
+				"        \"locName\": \"Lucknow\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"MUMB\",\r\n" + 
+				"        \"locName\": \"Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"NAGP\",\r\n" + 
+				"        \"locName\": \"Nagpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"NMUM\",\r\n" + 
+				"        \"locName\": \"Navi Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"PATN\",\r\n" + 
+				"        \"locName\": \"Patna\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"PNJI\",\r\n" + 
+				"        \"locName\": \"Panaji\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"PUNE\",\r\n" + 
+				"        \"locName\": \"Pune\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"RAIP\",\r\n" + 
+				"        \"locName\": \"Raipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"RCHI\",\r\n" + 
+				"        \"locName\": \"Ranchi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"SHIM\",\r\n" + 
+				"        \"locName\": \"Shimla\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"SILO\",\r\n" + 
+				"        \"locName\": \"Shillong\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"SRIN\",\r\n" + 
+				"        \"locName\": \"Srinagar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"locVal\": \"THIR\",\r\n" + 
+				"        \"locName\": \"Thiruvananthapuram\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotPropertyAmenties() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Swimming Pool -1\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Indoor Stadium / Badminton Court\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Gymnasium\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Provisional / Departmental Stores\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"ATM\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Creche (Day / Baby Care Centres)\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Library\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Lift\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Swimming Pool -2\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Community Hall - 1\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Community Hall - 2\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Community Hall - 3\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Community Hall - 4\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Dispensary\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Club House\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"amntyTyp\": \"\",\r\n" + 
+				"        \"amntyDesc\": \"Play Ground\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotUnitDetails() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"bldgName\": \"A\",\r\n" + 
+				"        \"flatNo\": \"1\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"bldgName\": \"A\",\r\n" + 
+				"        \"flatNo\": \"2\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"bldgName\": \"A\",\r\n" + 
+				"        \"flatNo\": \"3\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"bldgName\": \"A\",\r\n" + 
+				"        \"flatNo\": \"4\",\r\n" + 
+				"        \"status\": \"Available\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotPropertyImg() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"fileName\": \"ALT_MUMB10004_0010000041\",\r\n" + 
+				"        \"fileContent\": \"FFD8F76AF8D7CFF0043B7A9FFD9\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"propId\": null,\r\n" + 
+				"        \"fileName\": \"ALT_MUMB10004_0010000042\",\r\n" + 
+				"        \"fileContent\": \"FFD8FFE18666210FFFD9\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 	
 }
