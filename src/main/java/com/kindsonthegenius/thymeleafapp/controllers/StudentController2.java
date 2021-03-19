@@ -297,4 +297,69 @@ public class StudentController2 {
  
 	
 	
+	@RequestMapping(value="/alotvofdestinationlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotVofDestinationList(@RequestBody String empId) {
+		return new Jsons().getAlotVofDestinationList();
+	} 
+
+	@RequestMapping(value="/alotvofpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotVofPersonList(@RequestBody String empId) {
+		return new Jsons().getAlotVofPersonList();
+	} 
+
+	@RequestMapping(value="/alotvofpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotVofPersonDetailList(@RequestBody String pernr, String persName) {
+		return new Jsons().getAlotVofPersonDetailList();
+	} 
+
+	@RequestMapping(value="/alotvofreasonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotVofReasonList(@RequestBody String empId) {
+		return new Jsons().getAlotVofReasonList();
+	} 
+
+	@RequestMapping(value="/alotvofrequesttypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotVofRequestTypeList(@RequestBody String empId) {
+		return new Jsons().getAlotVofRequestTypeList();
+	} 
+
+	@RequestMapping(value="/alothhdestinationlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotHhDestinationList(@RequestBody String empId) {
+		return new Jsons().getAlotHhDestinationList();
+	} 
+
+	@RequestMapping(value="/alothhpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotHhPersonList(@RequestBody String empId) {
+		return new Jsons().getAlotHhPersonList();
+	} 
+
+	@RequestMapping(value="/alothhpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotHhPersonDetailList(@RequestBody String pernr, String persName) {
+		return new Jsons().getAlotHhPersonDetailList();
+	} 
+
+	@RequestMapping(value="/alotmfdestinationlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotMfDestinationList(@RequestBody String empId) {
+		return new Jsons().getAlotMfDestinationList();
+	} 
+
+	@RequestMapping(value="/alotmfpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotMfPersonList(@RequestBody String empId) {
+		return new Jsons().getAlotMfPersonList();
+	} 
+
+	@RequestMapping(value="/alotmfpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getAlotMfPersonDetailList(@RequestBody String pernr, String persName) {
+		return new Jsons().getAlotMfPersonDetailList();
+	} 
 }

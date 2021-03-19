@@ -2335,4 +2335,760 @@ public class Jsons {
 				"]";
 	}
 	
+	
+	public String getAlotVofDestinationList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"AAAA\",\r\n" + 
+				"        \"destName\": \"AAAA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"AGAR\",\r\n" + 
+				"        \"destName\": \"Agartala\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"AHMD\",\r\n" + 
+				"        \"destName\": \"Ahmedabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"AIZA\",\r\n" + 
+				"        \"destName\": \"Aizawl\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"BANG\",\r\n" + 
+				"        \"destName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"BHOP\",\r\n" + 
+				"        \"destName\": \"Bhopal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"BUBA\",\r\n" + 
+				"        \"destName\": \"Bhubaneswar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"CGHR\",\r\n" + 
+				"        \"destName\": \"Chandigarh\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"CHEN\",\r\n" + 
+				"        \"destName\": \"Chennai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"DDUN\",\r\n" + 
+				"        \"destName\": \"Dehradun\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"DELH\",\r\n" + 
+				"        \"destName\": \"New Delhi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"DICG\",\r\n" + 
+				"        \"destName\": \"Mumbai-DICGC\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"GANG\",\r\n" + 
+				"        \"destName\": \"Gangtok\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"GUWA\",\r\n" + 
+				"        \"destName\": \"Guwahati\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"HYDE\",\r\n" + 
+				"        \"destName\": \"Hyderabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"IMPH\",\r\n" + 
+				"        \"destName\": \"Imphal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"JAIP\",\r\n" + 
+				"        \"destName\": \"Jaipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"JMMU\",\r\n" + 
+				"        \"destName\": \"Jammu\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"KANP\",\r\n" + 
+				"        \"destName\": \"Kanpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"KCHI\",\r\n" + 
+				"        \"destName\": \"Kochi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"KOLK\",\r\n" + 
+				"        \"destName\": \"Kolkata\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"LUCK\",\r\n" + 
+				"        \"destName\": \"Lucknow\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"destName\": \"Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"NAGP\",\r\n" + 
+				"        \"destName\": \"Nagpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"NMUM\",\r\n" + 
+				"        \"destName\": \"Navi Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"PATN\",\r\n" + 
+				"        \"destName\": \"Patna\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"PNJI\",\r\n" + 
+				"        \"destName\": \"Panaji\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"PUNE\",\r\n" + 
+				"        \"destName\": \"Pune\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"RAIP\",\r\n" + 
+				"        \"destName\": \"Raipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"RCHI\",\r\n" + 
+				"        \"destName\": \"Ranchi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"SHIM\",\r\n" + 
+				"        \"destName\": \"Shimla\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"SILO\",\r\n" + 
+				"        \"destName\": \"Shillong\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"SRIN\",\r\n" + 
+				"        \"destName\": \"Srinagar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"destVal\": \"THIR\",\r\n" + 
+				"        \"destName\": \"Thiruvananthapuram\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotVofPersonList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"persName\": \"Spouse - Sneha\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"persName\": \"Child - Prasad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"persName\": \"Colleague\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"persName\": \"Others\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotVofPersonDetailList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"persName\": \"Spouse - Sneha\",\r\n" + 
+				"        \"relation\": \"Spouse\",\r\n" + 
+				"        \"age\": \"36\",\r\n" + 
+				"        \"name\": \"Sneha\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotVofReasonList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"reason\": \"Official\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"reason\": \"Personal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotVofRequestTypeList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"reqTyp\": \"VOF\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotHhDestinationList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"hhDestText\": \"BOMBAY\",\r\n" + 
+				"        \"hotelName\": \"TEST1231\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"FSFSE\",\r\n" + 
+				"        \"hhDestText\": \"FSFSE\",\r\n" + 
+				"        \"hotelName\": \"WEFE\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"GANGTOK\",\r\n" + 
+				"        \"hhDestText\": \"GANGTOK\",\r\n" + 
+				"        \"hotelName\": \"HOTEL SINIOLCHU\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"GOA\",\r\n" + 
+				"        \"hhDestText\": \"GOA\",\r\n" + 
+				"        \"hotelName\": \"HOTEL SANDALWOOD\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"KODAIKANAL\",\r\n" + 
+				"        \"hhDestText\": \"KODAIKANAL\",\r\n" + 
+				"        \"hotelName\": \"THE CARLTON\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"MADIKERI(C\",\r\n" + 
+				"        \"hhDestText\": \"MADIKERI(C\",\r\n" + 
+				"        \"hotelName\": \"HOTEL MAURYA VALLEY VIEW\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"MOUNT ABU\",\r\n" + 
+				"        \"hhDestText\": \"MOUNT ABU\",\r\n" + 
+				"        \"hotelName\": \"HOTEL KESAR BHAVAN\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"MUNNAR\",\r\n" + 
+				"        \"hhDestText\": \"MUNNAR\",\r\n" + 
+				"        \"hotelName\": \"AYUR COUNTY RESORTS\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"MUSSORIE\",\r\n" + 
+				"        \"hhDestText\": \"MUSSORIE\",\r\n" + 
+				"        \"hotelName\": \"RBI HOLIDAY HOME\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"PANCHGANI\",\r\n" + 
+				"        \"hhDestText\": \"PANCHGANI\",\r\n" + 
+				"        \"hotelName\": \"BLUE COUNTRY RESORT\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"PORT BLAIR\",\r\n" + 
+				"        \"hhDestText\": \"PORT BLAIR\",\r\n" + 
+				"        \"hotelName\": \"MEGAPODE RESORT\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"SASAN (GIR\",\r\n" + 
+				"        \"hhDestText\": \"SASAN (GIR\",\r\n" + 
+				"        \"hotelName\": \"FERN GIR FOREST RESORT HOTEL\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"SDSD\",\r\n" + 
+				"        \"hhDestText\": \"SDSD\",\r\n" + 
+				"        \"hotelName\": \"TEST07012019\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"SHIMLA\",\r\n" + 
+				"        \"hhDestText\": \"SHIMLA\",\r\n" + 
+				"        \"hotelName\": \"RBI1234\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"SHIRDI\",\r\n" + 
+				"        \"hhDestText\": \"SHIRDI\",\r\n" + 
+				"        \"hotelName\": \"SAI SAHWAS\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"TEST RBIAA\",\r\n" + 
+				"        \"hhDestText\": \"TEST RBIAA\",\r\n" + 
+				"        \"hotelName\": \"TEST RBIAA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"TEST123 SS\",\r\n" + 
+				"        \"hhDestText\": \"TEST123 SS\",\r\n" + 
+				"        \"hotelName\": \"TEST123 SS\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"TESTSSS\",\r\n" + 
+				"        \"hhDestText\": \"TESTSSS\",\r\n" + 
+				"        \"hotelName\": \"TEST11\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"TIRUPATI\",\r\n" + 
+				"        \"hhDestText\": \"TIRUPATI\",\r\n" + 
+				"        \"hotelName\": \"HOTEL UDAYEE INTERNATIONAL\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"UDAIPUR\",\r\n" + 
+				"        \"hhDestText\": \"UDAIPUR\",\r\n" + 
+				"        \"hotelName\": \"HOTEL HILL TOP PALACE\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"WORLI\",\r\n" + 
+				"        \"hhDestText\": \"WORLI\",\r\n" + 
+				"        \"hotelName\": \"MALHAR SADAN\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"a\",\r\n" + 
+				"        \"hhDestText\": \"a\",\r\n" + 
+				"        \"hotelName\": \"A\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"fgcv\",\r\n" + 
+				"        \"hhDestText\": \"fgcv\",\r\n" + 
+				"        \"hotelName\": \"AF\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"g\",\r\n" + 
+				"        \"hhDestText\": \"g\",\r\n" + 
+				"        \"hotelName\": \"G\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"hn\",\r\n" + 
+				"        \"hhDestText\": \"hn\",\r\n" + 
+				"        \"hotelName\": \"H\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"mumbai\",\r\n" + 
+				"        \"hhDestText\": \"mumbai\",\r\n" + 
+				"        \"hotelName\": \"HOTEL RAJ\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"test\",\r\n" + 
+				"        \"hhDestText\": \"test\",\r\n" + 
+				"        \"hotelName\": \"TEST2323\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"testhsjk\",\r\n" + 
+				"        \"hhDestText\": \"testhsjk\",\r\n" + 
+				"        \"hotelName\": \"HH\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"hhDestVal\": \"v\",\r\n" + 
+				"        \"hhDestText\": \"v\",\r\n" + 
+				"        \"hotelName\": \"DF\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotHhPersonList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Spouse - NEENA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Colleague\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Others\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotHhPersonDetailList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Spouse - NEENA\",\r\n" + 
+				"        \"relation\": \"Spouse\",\r\n" + 
+				"        \"age\": \"21\",\r\n" + 
+				"        \"name\": \"NEENA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotMfDestinationList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"AAAA\",\r\n" + 
+				"        \"mfDestName\": \"AAAA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"AGAR\",\r\n" + 
+				"        \"mfDestName\": \"Agartala\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"AHMD\",\r\n" + 
+				"        \"mfDestName\": \"Ahmedabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"AIZA\",\r\n" + 
+				"        \"mfDestName\": \"Aizawl\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"BANG\",\r\n" + 
+				"        \"mfDestName\": \"Bangalore\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"BHOP\",\r\n" + 
+				"        \"mfDestName\": \"Bhopal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"BUBA\",\r\n" + 
+				"        \"mfDestName\": \"Bhubaneswar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"CGHR\",\r\n" + 
+				"        \"mfDestName\": \"Chandigarh\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"CHEN\",\r\n" + 
+				"        \"mfDestName\": \"Chennai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"DDUN\",\r\n" + 
+				"        \"mfDestName\": \"Dehradun\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"DELH\",\r\n" + 
+				"        \"mfDestName\": \"New Delhi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"DICG\",\r\n" + 
+				"        \"mfDestName\": \"Mumbai-DICGC\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"GANG\",\r\n" + 
+				"        \"mfDestName\": \"Gangtok\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"GUWA\",\r\n" + 
+				"        \"mfDestName\": \"Guwahati\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"HYDE\",\r\n" + 
+				"        \"mfDestName\": \"Hyderabad\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"IMPH\",\r\n" + 
+				"        \"mfDestName\": \"Imphal\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"JAIP\",\r\n" + 
+				"        \"mfDestName\": \"Jaipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"JMMU\",\r\n" + 
+				"        \"mfDestName\": \"Jammu\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"KANP\",\r\n" + 
+				"        \"mfDestName\": \"Kanpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"KCHI\",\r\n" + 
+				"        \"mfDestName\": \"Kochi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"KOLK\",\r\n" + 
+				"        \"mfDestName\": \"Kolkata\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"LUCK\",\r\n" + 
+				"        \"mfDestName\": \"Lucknow\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"MUMB\",\r\n" + 
+				"        \"mfDestName\": \"Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"NAGP\",\r\n" + 
+				"        \"mfDestName\": \"Nagpur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"NMUM\",\r\n" + 
+				"        \"mfDestName\": \"Navi Mumbai\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"PATN\",\r\n" + 
+				"        \"mfDestName\": \"Patna\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"PNJI\",\r\n" + 
+				"        \"mfDestName\": \"Panaji\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"PUNE\",\r\n" + 
+				"        \"mfDestName\": \"Pune\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"RAIP\",\r\n" + 
+				"        \"mfDestName\": \"Raipur\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"RCHI\",\r\n" + 
+				"        \"mfDestName\": \"Ranchi\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"SHIM\",\r\n" + 
+				"        \"mfDestName\": \"Shimla\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"SILO\",\r\n" + 
+				"        \"mfDestName\": \"Shillong\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"SRIN\",\r\n" + 
+				"        \"mfDestName\": \"Srinagar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"mfDestVal\": \"THIR\",\r\n" + 
+				"        \"mfDestName\": \"Thiruvananthapuram\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotMfPersonList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Spouse - NEENA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Colleague\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Others\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getAlotMfPersonDetailList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100048\",\r\n" + 
+				"        \"persName\": \"Spouse - NEENA\",\r\n" + 
+				"        \"relation\": \"Spouse\",\r\n" + 
+				"        \"age\": \"21\",\r\n" + 
+				"        \"name\": \"NEENA\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 }
