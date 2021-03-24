@@ -306,7 +306,7 @@ public class StudentController2 {
 	@RequestMapping(value="/alotvofpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotVofPersonList(@RequestBody String empId) {
-		return new Jsons().getAlotVofPersonList();
+		return new Jsons().getAlotPersonList();
 	} 
 
 	@RequestMapping(value="/alotvofpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
@@ -336,7 +336,7 @@ public class StudentController2 {
 	@RequestMapping(value="/alothhpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotHhPersonList(@RequestBody String empId) {
-		return new Jsons().getAlotHhPersonList();
+		return new Jsons().getAlotPersonList();
 	} 
 
 	@RequestMapping(value="/alothhpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
@@ -354,7 +354,7 @@ public class StudentController2 {
 	@RequestMapping(value="/alotmfpersonlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getAlotMfPersonList(@RequestBody String empId) {
-		return new Jsons().getAlotMfPersonList();
+		return new Jsons().getAlotPersonList();
 	} 
 
 	@RequestMapping(value="/alotmfpersondetaillist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")

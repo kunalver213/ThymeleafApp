@@ -2545,27 +2545,56 @@ public class Jsons {
 				"]";
 	}
 
-	public String getAlotVofPersonList() {
+	public String getAlotPersonList() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000001\",\r\n" + 
-				"        \"persName\": \"Spouse - Sneha\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
+				"        \"persName\": \"Spouse - Anjali\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"Spouse\",\r\n" + 
+				"        \"age\": \"41\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000001\",\r\n" + 
-				"        \"persName\": \"Child - Prasad\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
+				"        \"persName\": \"Father - Ramesh\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"Father\",\r\n" + 
+				"        \"age\": \"71\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
+				"        \"persName\": \"Mother - Surekha\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"Mother\",\r\n" + 
+				"        \"age\": \"66\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
+				"        \"persName\": \"Child - Arjun\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"Child\",\r\n" + 
+				"        \"age\": \"21\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
+				"        \"persName\": \"Child - Sara\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"Child\",\r\n" + 
+				"        \"age\": \"16\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
 				"        \"persName\": \"Colleague\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"\",\r\n" + 
+				"        \"age\": \"\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000001\",\r\n" + 
+				"        \"pernr\": \"00100000\",\r\n" + 
 				"        \"persName\": \"Others\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"relation\": \"\",\r\n" + 
+				"        \"age\": \"\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
