@@ -3091,4 +3091,14 @@ public class Jsons {
 				"    }\r\n" + 
 				"]";
 	}
+	
+	
+	public String postAlotSubmit() {
+		// TODO Auto-generated method stub
+		return "{\r\n" + 
+		"    \"msg\": \"Success\"\r\n" + 
+		"}";
+	}
+	
+	
 }

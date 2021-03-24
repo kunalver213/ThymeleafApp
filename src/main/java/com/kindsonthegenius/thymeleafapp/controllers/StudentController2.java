@@ -362,4 +362,22 @@ public class StudentController2 {
 	public String getAlotMfPersonDetailList(@RequestBody String pernr, String persName) {
 		return new Jsons().getAlotMfPersonDetailList();
 	} 
+	
+	@RequestMapping(value="/alotvofsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String postAlotVofSubmit(@RequestBody String pernr) {
+		return new Jsons().postAlotSubmit();
+	} 
+	
+	@RequestMapping(value="/alothhsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String postAlotHhSubmit(@RequestBody String pernr) {
+		return new Jsons().postAlotSubmit();
+	} 
+	
+	@RequestMapping(value="/alotmfsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String postAlotMfSubmit(@RequestBody String pernr) {
+		return new Jsons().postAlotSubmit();
+	} 
 }
