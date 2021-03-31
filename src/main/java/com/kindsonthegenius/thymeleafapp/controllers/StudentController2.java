@@ -392,7 +392,7 @@ public class StudentController2 {
 
 	@RequestMapping(value="/alotdashsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String AlotDashSubmit(@RequestBody String pernr, String p0st) {
+	public String AlotDashSubmit(@RequestBody String pernr) {
 		return new Jsons().postAlotSubmit();
 	} 
 
@@ -404,7 +404,7 @@ public class StudentController2 {
 
 	@RequestMapping(value="/alotadminworklistsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String AlotAdminWorklistSubmit(@RequestBody String pernr, String p0st) {
+	public String AlotAdminWorklistSubmit(@RequestBody String pernr) {
 		return new Jsons().postAlotSubmit();
 	} 
 
@@ -416,7 +416,7 @@ public class StudentController2 {
 
 	@RequestMapping(value="/alotapproverworklistsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String AlotApproverWorklistSubmit(@RequestBody String pernr, String p0st) {
+	public String AlotApproverWorklistSubmit(@RequestBody String pernr) {
 		return new Jsons().postAlotSubmit();
 	} 
 
