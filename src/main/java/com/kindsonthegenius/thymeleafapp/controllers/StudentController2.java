@@ -380,4 +380,46 @@ public class StudentController2 {
 	public String postAlotMfSubmit(@RequestBody String pernr) {
 		return new Jsons().postAlotSubmit();
 	} 
+	
+	
+	/**/
+
+	@RequestMapping(value="/alotdashlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotDashList(@RequestBody String empId) {
+		return new Jsons().AlotDashList();
+	} 
+
+	@RequestMapping(value="/alotdashsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotDashSubmit(@RequestBody String pernr, String p0st) {
+		return new Jsons().postAlotSubmit();
+	} 
+
+	@RequestMapping(value="/alotadminworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotAdminWorklist(@RequestBody String pernr, String reqId) {
+		return new Jsons().AlotAdminWorklist();
+	} 
+
+	@RequestMapping(value="/alotadminworklistsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotAdminWorklistSubmit(@RequestBody String pernr, String p0st) {
+		return new Jsons().postAlotSubmit();
+	} 
+
+	@RequestMapping(value="/alotapproverworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotApproverWorklist(@RequestBody String pernr, String reqId) {
+		return new Jsons().AlotApproverWorklist();
+	} 
+
+	@RequestMapping(value="/alotapproverworklistsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotApproverWorklistSubmit(@RequestBody String pernr, String p0st) {
+		return new Jsons().postAlotSubmit();
+	} 
+
+
+	
 }
