@@ -4502,24 +4502,20 @@ public class Jsons {
 
 	public String AlotCaretakerQuaterMaintenanceDetUpd() {
 		return "{\r\n" + 
-				"    \"samId\": \"00000082\",\r\n" + 
-				"    \"allotId\": \"5000000095\",\r\n" + 
-				"    \"allotTyp\": \"MF\",\r\n" + 
-				"    \"reqId\": \"1000000107\",\r\n" + 
-				"    \"invId\": \"1000000301\",\r\n" + 
-				"    \"empName\": \" 82 Test Allotment\",\r\n" + 
-				"    \"location\": \"Bangalore\",\r\n" + 
-				"    \"dept\": \"\",\r\n" + 
-				"    \"reqTyp\": \"MF\",\r\n" + 
-				"    \"destination\": \"Mumbai\",\r\n" + 
-				"    \"fromDate\": \"20171130\",\r\n" + 
-				"    \"toDate\": \"20171204\",\r\n" + 
-				"    \"area\": \"AREA4\",\r\n" + 
-				"    \"flatNo\": \"FLAT 9\",\r\n" + 
-				"    \"bldg\": \"BUILDING4\",\r\n" + 
-				"    \"possDate\": \"\",\r\n" + 
-				"    \"chkoutDate\": \"\",\r\n" + 
+				"    \"samId\": \"00000081\",\r\n" + 
+				"    \"reqId\": \"1000000276\",\r\n" + 
+				"    \"crtComm\": \"\",\r\n" + 
+				"    \"quarter\": \"FlatNo:,FLAT,BuildingName,BUILDING2,Colony,COLONY1,Area,AREA2\",\r\n" + 
+				"    \"flatNo\": \"FLAT\",\r\n" + 
+				"    \"floor\": \"5\",\r\n" + 
+				"    \"bldg\": \"BUILDING2\",\r\n" + 
+				"    \"colony\": \"COLONY 1\",\r\n" + 
+				"    \"area\": \"AREA2\",\r\n" + 
+				"    \"maintTyp\": \"Electrical\",\r\n" + 
+				"    \"issueDesc\": \"--TEST\",\r\n" + 
 				"    \"msg\": \"\",\r\n" + 
+				"    \"reject\": \"\",\r\n" + 
+				"    \"send\": \"\",\r\n" + 
 				"    \"errorStatus\": null,\r\n" + 
 				"    \"pernr\": null\r\n" + 
 				"}";
