@@ -421,5 +421,102 @@ public class StudentController2 {
 	} 
 
 
+
+	@RequestMapping(value="/alotroles", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotRoles(@RequestBody String empId) {
+		return new Jsons().AlotRoles();
+	} 
+
+	@RequestMapping(value="/alotcaretakerworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerWorklist(@RequestBody String pernr, String locVal) {
+		return new Jsons().AlotCaretakerWorklist();
+	} 
+
+	@RequestMapping(value="/alotcaretakerregularquaterdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerRegularQuaterDetUpd(@RequestBody String pernr, String allotId, String possDate) {
+		return new Jsons().AlotCaretakerRegularQuaterDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakermedicalflatdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerMedicalFlatDetUpd(@RequestBody String pernr, String reqId, String allotId, String chkoutDate, String possDate) {
+		return new Jsons().AlotCaretakerMedicalFlatDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakerquatermaintenancedetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerQuaterMaintenanceDetUpd(@RequestBody String pernr, String reqId, String samId, String crtComm, String reject, String send) {
+		return new Jsons().AlotCaretakerQuaterMaintenanceDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakercommunityhallsdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerCommunityHallsDetUpd(@RequestBody String pernr, String allotId, String styendDate, String addRecChrg) {
+		return new Jsons().AlotCaretakerCommunityHallsDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakerevictionquarterdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerEvictionQuarterDetUpd(@RequestBody String pernr, String reqId, String allotId, String evicDate, String evicTime) {
+		return new Jsons().AlotCaretakerEvictionQuarterDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakertempflatsdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerTempFlatsDetUpd(@RequestBody String pernr, String reqId, String allotId, String styendDate, String possDate) {
+		return new Jsons().AlotCaretakerTempFlatsDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakervacationquarterdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerVacationQuarterDetUpd(@RequestBody String pernr, String reqId, String allotId, String actDateVac, String ActDateEvic, String QuatMaint) {
+		return new Jsons().AlotCaretakerVacationQuarterDetUpd();
+	} 
+
+	@RequestMapping(value="/alotcaretakervofthhdetupd", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotCaretakerVofThhDetUpd(@RequestBody String pernr, String reqId, String allotId, String samId, String chkinDate) {
+		return new Jsons().AlotCaretakerVofThhDetUpd();
+	} 
+
+	@RequestMapping(value="/alotwaitinglist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotWaitingList(@RequestBody String pernr, String locVal) {
+		return new Jsons().AlotWaitingList();
+	} 
+
+	@RequestMapping(value="/alotshifteelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotShifteeList(@RequestBody String pernr, String locVal) {
+		return new Jsons().AlotShifteeList();
+	} 
+
+	@RequestMapping(value="/alotestateworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotEstateWorklist(@RequestBody String pernr) {
+		return new Jsons().postAlotSubmit();
+	} 
+
+	@RequestMapping(value="/alotcomplainregquaterlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotComplainRegQuaterlist(@RequestBody String empId) {
+		return new Jsons().AlotComplainRegQuaterlist();
+	} 
+
+	@RequestMapping(value="/alotcomplainregmaintainlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotComplainRegMaintainlist(@RequestBody String empId) {
+		return new Jsons().AlotComplainRegMaintainlist();
+	} 
+
+	@RequestMapping(value="/alotcomplainregsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotComplainRegSubmit(@RequestBody String pernr, String invId, String maintCode, String issueDesc, String submit) {
+		return new Jsons().AlotComplainRegSubmit();
+	} 
+
 	
 }
