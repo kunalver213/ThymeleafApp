@@ -518,5 +518,5 @@ public class StudentController2 {
 		return new Jsons().AlotComplainRegSubmit();
 	} 
 
-	
+	 
 }
