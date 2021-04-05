@@ -519,4 +519,9 @@ public class StudentController2 {
 	} 
 
 	 
+	@RequestMapping(value="/alotadminworklistset", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotAdminWorklistSet(@RequestBody String empId) {
+		return new Jsons().AlotAdminWorklistSet();
+	} 
 }

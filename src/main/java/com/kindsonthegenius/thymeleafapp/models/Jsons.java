@@ -5379,4 +5379,287 @@ public class Jsons {
 				"}";
 	}
 
+	public String AlotAdminWorklistSet() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000127\",\r\n" + 
+				"        \"action\": \"\",\r\n" + 
+				"        \"dateRecvd\": \"20171201\",\r\n" + 
+				"        \"empName\": \"67 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000067\",\r\n" + 
+				"        \"classx\": \"3\",\r\n" + 
+				"        \"grade\": \"3A\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Bangalore\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"\",\r\n" + 
+				"        \"reqColony\": \"\",\r\n" + 
+				"        \"reqBldg\": \"\",\r\n" + 
+				"        \"reqFlno\": \"\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000156\",\r\n" + 
+				"        \"action\": \"Pending for Allocation\",\r\n" + 
+				"        \"dateRecvd\": \"20171227\",\r\n" + 
+				"        \"empName\": \"69 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000069\",\r\n" + 
+				"        \"classx\": \"3\",\r\n" + 
+				"        \"grade\": \"3A\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Bangalore\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"\",\r\n" + 
+				"        \"reqColony\": \"\",\r\n" + 
+				"        \"reqBldg\": \"\",\r\n" + 
+				"        \"reqFlno\": \"/\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000170\",\r\n" + 
+				"        \"action\": \"\",\r\n" + 
+				"        \"dateRecvd\": \"20171228\",\r\n" + 
+				"        \"empName\": \" 83 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000083\",\r\n" + 
+				"        \"classx\": \"1\",\r\n" + 
+				"        \"grade\": \"1D\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Hyderabad\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"BANG\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"AREA3\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"1000000503\",\r\n" + 
+				"        \"reqColony\": \"BANJEE3\",\r\n" + 
+				"        \"reqBldg\": \"BUILDING3\",\r\n" + 
+				"        \"reqFlno\": \"0/22\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000230\",\r\n" + 
+				"        \"action\": \"Confirmation letter sent to Employee\",\r\n" + 
+				"        \"dateRecvd\": \"20180117\",\r\n" + 
+				"        \"empName\": \"67 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000067\",\r\n" + 
+				"        \"classx\": \"3\",\r\n" + 
+				"        \"grade\": \"3A\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Bangalore\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"\",\r\n" + 
+				"        \"reqColony\": \"\",\r\n" + 
+				"        \"reqBldg\": \"\",\r\n" + 
+				"        \"reqFlno\": \"\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000232\",\r\n" + 
+				"        \"action\": \"\",\r\n" + 
+				"        \"dateRecvd\": \"20180118\",\r\n" + 
+				"        \"empName\": \"69 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000069\",\r\n" + 
+				"        \"classx\": \"3\",\r\n" + 
+				"        \"grade\": \"3A\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Bangalore\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"BANG\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"DFCDSG\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"RQ10000000\",\r\n" + 
+				"        \"reqColony\": \"TEST\",\r\n" + 
+				"        \"reqBldg\": \"TEST\",\r\n" + 
+				"        \"reqFlno\": \"0/1\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000236\",\r\n" + 
+				"        \"action\": \"Pending for Allotment Letter Release\",\r\n" + 
+				"        \"dateRecvd\": \"20180129\",\r\n" + 
+				"        \"empName\": \"Confirmation Test 2\",\r\n" + 
+				"        \"samId\": \"00102236\",\r\n" + 
+				"        \"classx\": \"1\",\r\n" + 
+				"        \"grade\": \"1A\",\r\n" + 
+				"        \"dept\": \"HRMD\",\r\n" + 
+				"        \"location\": \"Mumbai\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"\",\r\n" + 
+				"        \"reqColony\": \"\",\r\n" + 
+				"        \"reqBldg\": \"\",\r\n" + 
+				"        \"reqFlno\": \"/\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000244\",\r\n" + 
+				"        \"action\": \"Pending for Allocation\",\r\n" + 
+				"        \"dateRecvd\": \"20180129\",\r\n" + 
+				"        \"empName\": \"69 Test Allotment\",\r\n" + 
+				"        \"samId\": \"00000069\",\r\n" + 
+				"        \"classx\": \"3\",\r\n" + 
+				"        \"grade\": \"3A\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Bangalore\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"\",\r\n" + 
+				"        \"reqColony\": \"\",\r\n" + 
+				"        \"reqBldg\": \"\",\r\n" + 
+				"        \"reqFlno\": \"/\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000273\",\r\n" + 
+				"        \"action\": \"Pending for Retention Letter Release\",\r\n" + 
+				"        \"dateRecvd\": \"20180212\",\r\n" + 
+				"        \"empName\": \"EX Test\",\r\n" + 
+				"        \"samId\": \"00100968\",\r\n" + 
+				"        \"classx\": \"E\",\r\n" + 
+				"        \"grade\": \"ED\",\r\n" + 
+				"        \"dept\": \"\",\r\n" + 
+				"        \"location\": \"Mumbai\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"BANG\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"AREA4\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"1000000304\",\r\n" + 
+				"        \"reqColony\": \"COLONY 2\",\r\n" + 
+				"        \"reqBldg\": \"BUILDING4\",\r\n" + 
+				"        \"reqFlno\": \"0/FLAT 4\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000082\",\r\n" + 
+				"        \"reqId\": \"1000000274\",\r\n" + 
+				"        \"action\": \"Pending for Retention Letter Release\",\r\n" + 
+				"        \"dateRecvd\": \"20180213\",\r\n" + 
+				"        \"empName\": \"Confirmation Test 2\",\r\n" + 
+				"        \"samId\": \"00102236\",\r\n" + 
+				"        \"classx\": \"1\",\r\n" + 
+				"        \"grade\": \"1A\",\r\n" + 
+				"        \"dept\": \"HRMD\",\r\n" + 
+				"        \"location\": \"Mumbai\",\r\n" + 
+				"        \"curArea\": \"\",\r\n" + 
+				"        \"curColony\": \"\",\r\n" + 
+				"        \"curBldg\": \"\",\r\n" + 
+				"        \"curFlno\": \"\",\r\n" + 
+				"        \"curFrom\": \"\",\r\n" + 
+				"        \"curTo\": \"\",\r\n" + 
+				"        \"reqDest\": \"BANG\",\r\n" + 
+				"        \"reqFrom\": \"\",\r\n" + 
+				"        \"reqTo\": \"\",\r\n" + 
+				"        \"reqArea\": \"AREA8\",\r\n" + 
+				"        \"reqAvail\": \"\",\r\n" + 
+				"        \"reqInvid\": \"1000000308\",\r\n" + 
+				"        \"reqColony\": \"COLONY 4\",\r\n" + 
+				"        \"reqBldg\": \"BUILDING8\",\r\n" + 
+				"        \"reqFlno\": \"0/FLAT 8\",\r\n" + 
+				"        \"reqRem\": \"\",\r\n" + 
+				"        \"sendEmp\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 }
