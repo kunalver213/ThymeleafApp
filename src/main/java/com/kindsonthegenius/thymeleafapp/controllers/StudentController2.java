@@ -408,9 +408,9 @@ public class StudentController2 {
 		return new Jsons().postAlotSubmit();
 	} 
 
-	@RequestMapping(value="/alotapproverworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/alotapproverworklistset", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String AlotApproverWorklist(@RequestBody String pernr, String reqId) {
+	public String AlotApproverWorklist(@RequestBody String empId) {
 		return new Jsons().AlotApproverWorklist();
 	} 
 
