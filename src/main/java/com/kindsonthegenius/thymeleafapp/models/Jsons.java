@@ -938,84 +938,136 @@ public class Jsons {
 	public String getPmsCls1List() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"\",\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
 				"        \"appYear\": \"2018-19\",\r\n" + 
 				"        \"appStatus\": \"Completed\",\r\n" + 
-				"        \"marks\": \"87\",\r\n" + 
-				"        \"roName\": \"Rajiva Husband\",\r\n" + 
-				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
-				"        \"kra\": \"1\",\r\n" + 
-				"        \"kraWeight\": \"25 \",\r\n" + 
-				"        \"kraTitle\": \"\",\r\n" + 
-				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"Data Centre activities\",\r\n" + 
+				"        \"kraWeight\": \"35 \",\r\n" + 
+				"        \"kraTitle\": \"Data Centre activities\",\r\n" + 
+				"        \"kraDesc\": \"Coordinating and supervising various data centre activities for Samadhan servers such as approval of CRFs for access to Samadhan servers for Project team, functional team, UAT team and HR Ops team; routine backups; updating security patches; upgrade of drivers and firm wares; backup restoration testing; refresh activity for quality and training servers at ODC; etc.\",\r\n" + 
 				"        \"achievements\": \"\",\r\n" + 
-				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"selfRating\": \"Exceptional Performance\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"roComm\": \"ok\",\r\n" + 
-				"        \"rvoComm\": \"66 \",\r\n" + 
-				"        \"roRating\": \"1 \",\r\n" + 
-				"        \"rvoRating\": \"0 \",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"roComm\": \"Taken care of all regular activiites at the DC.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Top Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"\",\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
 				"        \"appYear\": \"2018-19\",\r\n" + 
 				"        \"appStatus\": \"Completed\",\r\n" + 
-				"        \"marks\": \"87\",\r\n" + 
-				"        \"roName\": \"Rajiva Husband\",\r\n" + 
-				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
-				"        \"kra\": \"2\",\r\n" + 
-				"        \"kraWeight\": \"25 \",\r\n" + 
-				"        \"kraTitle\": \"\",\r\n" + 
-				"        \"kraDesc\": \"\",\r\n" + 
-				"        \"achievements\": \"\",\r\n" + 
-				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"DR drill for Samadhan Application\",\r\n" + 
+				"        \"kraWeight\": \"10 \",\r\n" + 
+				"        \"kraTitle\": \"DR drill for Samadhan Application\",\r\n" + 
+				"        \"kraDesc\": \"Conducting DR drill for Samadhan application once in a quarter.\",\r\n" + 
+				"        \"achievements\": \"DR drill for Jul-Sep 2018, Oct-Dec 2018 & Jan-Mar 2019 has been carried out successfully.\",\r\n" + 
+				"        \"selfRating\": \"Exceptional Performance\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"roComm\": \"ok\",\r\n" + 
-				"        \"rvoComm\": \"66 \",\r\n" + 
-				"        \"roRating\": \"1 \",\r\n" + 
-				"        \"rvoRating\": \"0 \",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"roComm\": \"Successfully conducted all DR drills planned for the year. The drill was conducted smoothly without any disturbance to end users.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"\",\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
 				"        \"appYear\": \"2018-19\",\r\n" + 
 				"        \"appStatus\": \"Completed\",\r\n" + 
-				"        \"marks\": \"87\",\r\n" + 
-				"        \"roName\": \"Rajiva Husband\",\r\n" + 
-				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
-				"        \"kra\": \"3\",\r\n" + 
-				"        \"kraWeight\": \"25 \",\r\n" + 
-				"        \"kraTitle\": \"\",\r\n" + 
-				"        \"kraDesc\": \"\",\r\n" + 
-				"        \"achievements\": \"\",\r\n" + 
-				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"Vulnerability Assessment of Samadhan Application\",\r\n" + 
+				"        \"kraWeight\": \"5 \",\r\n" + 
+				"        \"kraTitle\": \"Vulnerability Assessment of Samadhan Application\",\r\n" + 
+				"        \"kraDesc\": \"To coordinate with Data Centre officials to conduct VA of Samadhan Application once in a year and submit compliance for the same.\",\r\n" + 
+				"        \"achievements\": \"VA for Samadhan servers at PDC was done on 23-Jan-2019 and compliance for the same was submitted to PDC on 06-Mar-2019.\",\r\n" + 
+				"        \"selfRating\": \"Exceptional Performance\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"roComm\": \"ok\",\r\n" + 
-				"        \"rvoComm\": \"66 \",\r\n" + 
-				"        \"roRating\": \"1 \",\r\n" + 
-				"        \"rvoRating\": \"0 \",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"roComm\": \"Cordinated conduct of VA&PT. Wherever required corrective action has been promptly taken.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"\",\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
 				"        \"appYear\": \"2018-19\",\r\n" + 
 				"        \"appStatus\": \"Completed\",\r\n" + 
-				"        \"marks\": \"87\",\r\n" + 
-				"        \"roName\": \"Rajiva Husband\",\r\n" + 
-				"        \"rvoName\": \"CHANDRA SHEKHAR AZAD\",\r\n" + 
-				"        \"kra\": \"4\",\r\n" + 
-				"        \"kraWeight\": \"25 \",\r\n" + 
-				"        \"kraTitle\": \"\",\r\n" + 
-				"        \"kraDesc\": \"\",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"Co-ordination with BOs and vendor teams for release of Modules in Phase II\",\r\n" + 
+				"        \"kraWeight\": \"30 \",\r\n" + 
+				"        \"kraTitle\": \"Co-ordination with BOs and vendor teams for release of Modules in Phase II\",\r\n" + 
+				"        \"kraDesc\": \"Understanding the business requirements from BOs for various modules of Phase II, participating in finalising the business requirements and arranging for sign off for CSD /FDD/test cases for various modules. Coordinating with BOs, development team and UAT team for pre-release requirements.\",\r\n" + 
 				"        \"achievements\": \"\",\r\n" + 
-				"        \"selfRating\": \"2 \",\r\n" + 
+				"        \"selfRating\": \"Top Performance\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"roComm\": \"ok\",\r\n" + 
-				"        \"rvoComm\": \"66 \",\r\n" + 
-				"        \"roRating\": \"1 \",\r\n" + 
-				"        \"rvoRating\": \"0 \",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"roComm\": \"Cordinated implementaion of some Phase 2 modules.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Very Effective Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"Samadhan CBS Integration\",\r\n" + 
+				"        \"kraWeight\": \"10 \",\r\n" + 
+				"        \"kraTitle\": \"Samadhan CBS Integration\",\r\n" + 
+				"        \"kraDesc\": \"Coordinating for testing of Samadhan CBS integration for inward receipts and sundry - suspense related transactions in Samadhan Phase II modules like Medical, HL, LFC, RFC, VM.\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"Ensured smooth operation of the Samadhan-CBS interface ensuring that all accounting and payments through CBS happened smoothly.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00204107\",\r\n" + 
+				"        \"appYear\": \"2018-19\",\r\n" + 
+				"        \"appStatus\": \"Completed\",\r\n" + 
+				"        \"marks\": \"\",\r\n" + 
+				"        \"roName\": \"Kashiap Balakrishnan\",\r\n" + 
+				"        \"rvoName\": \"Vivek Aggarwal\",\r\n" + 
+				"        \"kra\": \"Internet release of Samadhan Application and Mobile App - Phase II\",\r\n" + 
+				"        \"kraWeight\": \"10 \",\r\n" + 
+				"        \"kraTitle\": \"Internet release of Samadhan Application and Mobile App - Phase II\",\r\n" + 
+				"        \"kraDesc\": \"Facilitating the release of Samadhan Application over internet. Facilitating the release of Mobile App for Samadhan Application.\",\r\n" + 
+				"        \"achievements\": \"\",\r\n" + 
+				"        \"selfRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"overRating\": \"\",\r\n" + 
+				"        \"roComm\": \"Ensured proper testing and release of hte internet portal and mobile app which was pending for a very long time.\",\r\n" + 
+				"        \"rvoComm\": \"90 \",\r\n" + 
+				"        \"roRating\": \"Exceptional Performance\",\r\n" + 
+				"        \"rvoRating\": \"94 \",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -1033,7 +1085,9 @@ public class Jsons {
 				"        \"roName\": \"Reporting1 Manager\",\r\n" + 
 				"        \"rvoName\": \"RR ADM1\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"pernr\": \"00000140\",\r\n" + 
@@ -1044,9 +1098,11 @@ public class Jsons {
 				"        \"roMarks\": \"0.00 \",\r\n" + 
 				"        \"rvoMarks\": \"0.00 \",\r\n" + 
 				"        \"roName\": \"Reporting1 Manager\",\r\n" + 
-				"        \"rvoName\": \"\",\r\n" + 
+				"        \"rvoName\": \"RR ADM1\",\r\n" + 
 				"        \"overRating\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"roDesg\": \"abc\",\r\n" + 
+				"        \"rvoDesg\": \"abc\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
