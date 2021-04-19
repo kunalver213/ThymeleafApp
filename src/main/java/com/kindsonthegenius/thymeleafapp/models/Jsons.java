@@ -4756,4 +4756,74 @@ public class Jsons {
 				"    }\r\n" + 
 				"]";
 	}
+
+
+
+
+	public String AlotEstateWorklistSet() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"reqId\": \"5000000086\",\r\n" + 
+				"        \"reqTyp\": \"Vacation of Quarter\",\r\n" + 
+				"        \"name\": \" 82 Test Allotment\",\r\n" + 
+				"        \"quatName\": \"\",\r\n" + 
+				"        \"flatNo\": \"\",\r\n" + 
+				"        \"floor\": \"\",\r\n" + 
+				"        \"bldg\": \"\",\r\n" + 
+				"        \"colony\": \"\",\r\n" + 
+				"        \"area\": \"\",\r\n" + 
+				"        \"maintTyp\": \"\",\r\n" + 
+				"        \"issueDesc\": \"\",\r\n" + 
+				"        \"ctComm\": \"\",\r\n" + 
+				"        \"etComm\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"{\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"reqId\": \"5000000086\",\r\n" + 
+				"        \"reqTyp\": \"Vacation of Quarter\",\r\n" + 
+				"        \"name\": \" 82 Test Allotment\",\r\n" + 
+				"        \"quatName\": \"\",\r\n" + 
+				"        \"flatNo\": \"\",\r\n" + 
+				"        \"floor\": \"\",\r\n" + 
+				"        \"bldg\": \"\",\r\n" + 
+				"        \"colony\": \"\",\r\n" + 
+				"        \"area\": \"\",\r\n" + 
+				"        \"maintTyp\": \"\",\r\n" + 
+				"        \"issueDesc\": \"\",\r\n" + 
+				"        \"ctComm\": \"\",\r\n" + 
+				"        \"etComm\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				",\r\n" + 
+				"{\r\n" + 
+				"        \"pernr\": \"\",\r\n" + 
+				"        \"reqId\": \"5000000086\",\r\n" + 
+				"        \"reqTyp\": \"Vacation of Quarter\",\r\n" + 
+				"        \"name\": \" 82 Test Allotment\",\r\n" + 
+				"        \"quatName\": \"\",\r\n" + 
+				"        \"flatNo\": \"\",\r\n" + 
+				"        \"floor\": \"\",\r\n" + 
+				"        \"bldg\": \"\",\r\n" + 
+				"        \"colony\": \"\",\r\n" + 
+				"        \"area\": \"\",\r\n" + 
+				"        \"maintTyp\": \"\",\r\n" + 
+				"        \"issueDesc\": \"\",\r\n" + 
+				"        \"ctComm\": \"\",\r\n" + 
+				"        \"etComm\": \"\",\r\n" + 
+				"        \"msg\": \"\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+
+
+
+
+
+
 }

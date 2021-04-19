@@ -494,7 +494,7 @@ public class StudentController2 {
 		return new Jsons().AlotShifteeList();
 	} 
 
-	@RequestMapping(value="/alotestateworklist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@RequestMapping(value="/alotestateworklistsubmit", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String AlotEstateWorklist(@RequestBody String pernr) {
 		return new Jsons().postAlotSubmit();
@@ -524,4 +524,15 @@ public class StudentController2 {
 	public String AlotAdminWorklistSet(@RequestBody String empId) {
 		return new Jsons().AlotAdminWorklistSet();
 	} 
+	
+	@RequestMapping(value="/alotestateworklistset", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotEstateWorklistSet(@RequestBody String empId) {
+		return new Jsons().AlotEstateWorklistSet();
+	} 
+
+
+
+
+	
 }
