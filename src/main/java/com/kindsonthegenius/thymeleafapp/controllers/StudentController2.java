@@ -220,7 +220,7 @@ public class StudentController2 {
 
 	@RequestMapping(value="/trninputsubcat", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
-	public String getTrnInputSubcat(@RequestBody String empId) {
+	public String getTrnInputSubcat(@RequestBody String grpCode) {
 		return new Jsons().getTrnInputSubcat();
 	} 
 	
