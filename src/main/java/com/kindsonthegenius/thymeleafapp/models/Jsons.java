@@ -4822,7 +4822,100 @@ public class Jsons {
 
 
 
+	public String AlotVofAreaList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000084\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"propId\": \"0005\",\r\n" + 
+				"        \"prefArea\": \"COLONY 1\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000084\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"propId\": \"0005\",\r\n" + 
+				"        \"prefArea\": \"COLONY 4\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000084\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"propId\": \"NAG_P_0001\",\r\n" + 
+				"        \"prefArea\": \"MADHUBAN APARTMENT\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000084\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"propId\": \"0005\",\r\n" + 
+				"        \"prefArea\": \"COLONY 1\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000084\",\r\n" + 
+				"        \"destVal\": \"MUMB\",\r\n" + 
+				"        \"reqVal\": \"01\",\r\n" + 
+				"        \"propId\": \"P11\",\r\n" + 
+				"        \"prefArea\": \"PRABHADEVI\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 
+	public String AlotHhHotelList() {
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"invId\": \"\",\r\n" + 
+				"        \"hotelName\": \"HOLIDAY TEST HOME 1\",\r\n" + 
+				"        \"inTime\": \"120000\",\r\n" + 
+				"        \"outTime\": \"130000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"invId\": \"\",\r\n" + 
+				"        \"hotelName\": \"TEST 2 HOLIDAY HOME\",\r\n" + 
+				"        \"inTime\": \"010000\",\r\n" + 
+				"        \"outTime\": \"050000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"invId\": \"\",\r\n" + 
+				"        \"hotelName\": \"HOLIDAY HOME\",\r\n" + 
+				"        \"inTime\": \"100000\",\r\n" + 
+				"        \"outTime\": \"120000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"invId\": \"\",\r\n" + 
+				"        \"hotelName\": \"HOLIDAY HOME\",\r\n" + 
+				"        \"inTime\": \"100000\",\r\n" + 
+				"        \"outTime\": \"120000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"hhDestVal\": \"BOMBAY\",\r\n" + 
+				"        \"invId\": \"\",\r\n" + 
+				"        \"hotelName\": \"TEST1231\",\r\n" + 
+				"        \"inTime\": \"020000\",\r\n" + 
+				"        \"outTime\": \"040000\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
 
 
 

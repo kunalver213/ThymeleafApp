@@ -531,7 +531,22 @@ public class StudentController2 {
 		return new Jsons().AlotEstateWorklistSet();
 	} 
 
+	@RequestMapping(value="/alotvofarealist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotVofAreaList(@RequestBody String pernr, String destVal, String reqVal) {
+		return new Jsons().AlotVofAreaList();
+	} 
 
+	@RequestMapping(value="/alothhhotellist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String AlotHhHotelList(@RequestBody String pernr, String hhDestVal) {
+		return new Jsons().AlotHhHotelList();
+	} 
+
+
+
+
+	
 
 
 	
