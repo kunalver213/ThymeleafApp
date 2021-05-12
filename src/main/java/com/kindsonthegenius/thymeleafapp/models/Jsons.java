@@ -3756,7 +3756,8 @@ public class Jsons {
 				"        \"currFlat\": \"\",\r\n" + 
 				"        \"currFlatTyp\": \"RQ\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": \"A\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3772,7 +3773,8 @@ public class Jsons {
 				"        \"currFlat\": \"\",\r\n" + 
 				"        \"currFlatTyp\": \"RQ\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3788,55 +3790,42 @@ public class Jsons {
 				"        \"currFlat\": \"\",\r\n" + 
 				"        \"currFlatTyp\": \"RQ\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
 				"        \"rank\": \"0 \",\r\n" + 
 				"        \"name\": \"\",\r\n" + 
 				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000219\",\r\n" + 
-				"        \"samId\": \"00199419\",\r\n" + 
+				"        \"reqId\": \"1000000031\",\r\n" + 
+				"        \"samId\": \"00205137\",\r\n" + 
 				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
+				"        \"classGrade\": \"3/3A\",\r\n" + 
 				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180308\",\r\n" + 
+				"        \"doa\": \"20180122\",\r\n" + 
 				"        \"currFlat\": \"\",\r\n" + 
 				"        \"currFlatTyp\": \"RQ\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
 				"        \"rank\": \"0 \",\r\n" + 
 				"        \"name\": \"\",\r\n" + 
 				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000220\",\r\n" + 
-				"        \"samId\": \"00198989\",\r\n" + 
+				"        \"reqId\": \"1000000032\",\r\n" + 
+				"        \"samId\": \"00206481\",\r\n" + 
 				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
+				"        \"classGrade\": \"1/1B\",\r\n" + 
 				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180308\",\r\n" + 
+				"        \"doa\": \"20180122\",\r\n" + 
 				"        \"currFlat\": \"\",\r\n" + 
 				"        \"currFlatTyp\": \"RQ\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"0 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000235\",\r\n" + 
-				"        \"samId\": \"00201452\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180313\",\r\n" + 
-				"        \"currFlat\": \"\",\r\n" + 
-				"        \"currFlatTyp\": \"RQ\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -3859,7 +3848,8 @@ public class Jsons {
 				"        \"pref3\": \"\",\r\n" + 
 				"        \"pref4\": \"\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": \"A\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3877,7 +3867,8 @@ public class Jsons {
 				"        \"pref3\": \"\",\r\n" + 
 				"        \"pref4\": \"\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3895,7 +3886,8 @@ public class Jsons {
 				"        \"pref3\": \"\",\r\n" + 
 				"        \"pref4\": \"\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3913,7 +3905,8 @@ public class Jsons {
 				"        \"pref3\": \"\",\r\n" + 
 				"        \"pref4\": \"\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"locVal\": \"MUMB\",\r\n" + 
@@ -3931,403 +3924,8 @@ public class Jsons {
 				"        \"pref3\": \"\",\r\n" + 
 				"        \"pref4\": \"\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"6 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"0000000006\",\r\n" + 
-				"        \"samId\": \"00101028\",\r\n" + 
-				"        \"empName\": \"Maharaj\",\r\n" + 
-				"        \"classGrade\": \"1/1D\",\r\n" + 
-				"        \"dept\": \"Department of Banking Operations and Dev\",\r\n" + 
-				"        \"doa\": \"20180204\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"7 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"0000000007\",\r\n" + 
-				"        \"samId\": \"00101028\",\r\n" + 
-				"        \"empName\": \"Maharaj\",\r\n" + 
-				"        \"classGrade\": \"1/1D\",\r\n" + 
-				"        \"dept\": \"Department of Banking Operations and Dev\",\r\n" + 
-				"        \"doa\": \"20180201\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"8 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000004\",\r\n" + 
-				"        \"samId\": \"00194266\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180130\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"9 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000005\",\r\n" + 
-				"        \"samId\": \"00207904\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1B\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180202\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"10 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000006\",\r\n" + 
-				"        \"samId\": \"00203412\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1C\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180203\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"11 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000007\",\r\n" + 
-				"        \"samId\": \"00197894\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1F\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180206\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"12 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000008\",\r\n" + 
-				"        \"samId\": \"00199281\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1F\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180207\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"13 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000009\",\r\n" + 
-				"        \"samId\": \"00195715\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1F\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180209\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"14 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000011\",\r\n" + 
-				"        \"samId\": \"00200798\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1D\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180212\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"15 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000012\",\r\n" + 
-				"        \"samId\": \"00202215\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1E\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180212\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"16 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000013\",\r\n" + 
-				"        \"samId\": \"00200798\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1D\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180212\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"17 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000015\",\r\n" + 
-				"        \"samId\": \"00200801\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1F\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180213\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"18 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000016\",\r\n" + 
-				"        \"samId\": \"00203040\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180215\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"19 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000017\",\r\n" + 
-				"        \"samId\": \"00194548\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180215\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"20 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000018\",\r\n" + 
-				"        \"samId\": \"00204323\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180215\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"21 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000019\",\r\n" + 
-				"        \"samId\": \"00202161\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1D\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180215\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"22 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000020\",\r\n" + 
-				"        \"samId\": \"00199250\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1F\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180216\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"23 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000021\",\r\n" + 
-				"        \"samId\": \"00203374\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1C\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180222\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"24 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000022\",\r\n" + 
-				"        \"samId\": \"00202654\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1C\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180222\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"25 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000024\",\r\n" + 
-				"        \"samId\": \"00195035\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180222\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"26 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000026\",\r\n" + 
-				"        \"samId\": \"00204833\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180226\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"locVal\": \"MUMB\",\r\n" + 
-				"        \"rank\": \"27 \",\r\n" + 
-				"        \"name\": \"\",\r\n" + 
-				"        \"desig\": \"\",\r\n" + 
-				"        \"reqId\": \"X0000027\",\r\n" + 
-				"        \"samId\": \"00207931\",\r\n" + 
-				"        \"empName\": \"\",\r\n" + 
-				"        \"classGrade\": \"1/1A\",\r\n" + 
-				"        \"dept\": \"\",\r\n" + 
-				"        \"doa\": \"20180308\",\r\n" + 
-				"        \"pref1\": \"\",\r\n" + 
-				"        \"pref2\": \"\",\r\n" + 
-				"        \"pref3\": \"\",\r\n" + 
-				"        \"pref4\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"pernr\": null\r\n" + 
+				"        \"pernr\": null,\r\n" + 
+				"        \"classGrp\": null\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -4460,7 +4058,8 @@ public class Jsons {
 				"    \"maintTyp\": \"\",\r\n" + 
 				"    \"issueDesc\": \"\",\r\n" + 
 				"    \"submit\": \"\",\r\n" + 
-				"    \"errorStatus\": null\r\n" + 
+				"    \"errorStatus\": null,\r\n" + 
+				"    \"msg\": \"\"\r\n" + 
 				"}";
 	}
 
