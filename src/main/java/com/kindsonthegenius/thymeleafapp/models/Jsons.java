@@ -3187,7 +3187,11 @@ public class Jsons {
 				"        \"status\": \"In Waiting List\",\r\n" + 
 				"        \"fileName\": \"\",\r\n" + 
 				"        \"fileContent\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"propName\": \"\",\r\n" + 
+				"        \"dest\": \"\"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
 				"        \"pernr\": \"11111111\",\r\n" + 
@@ -3197,7 +3201,11 @@ public class Jsons {
 				"        \"status\": \"In Waiting List\",\r\n" + 
 				"        \"fileName\": \"\",\r\n" + 
 				"        \"fileContent\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"fromDate\": \"\",\r\n" + 
+				"        \"toDate\": \"\",\r\n" + 
+				"        \"propName\": \"\",\r\n" + 
+				"        \"dest\": \"\"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
