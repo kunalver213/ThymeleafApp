@@ -3178,36 +3178,336 @@ public class Jsons {
 	
 	
 	public String AlotDashList() {
-		return "[\r\n" + 
-				"    {\r\n" + 
-				"        \"pernr\": \"11111111\",\r\n" + 
-				"        \"reqNo\": \"1000000006\",\r\n" + 
-				"        \"reqTyp\": \"Regular Quarters\",\r\n" + 
-				"        \"date\": \"20180112\",\r\n" + 
-				"        \"status\": \"In Waiting List\",\r\n" + 
-				"        \"fileName\": \"\",\r\n" + 
-				"        \"fileContent\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"fromDate\": \"\",\r\n" + 
-				"        \"toDate\": \"\",\r\n" + 
-				"        \"propName\": \"\",\r\n" + 
-				"        \"dest\": \"\"\r\n" + 
-				"    },\r\n" + 
-				"    {\r\n" + 
-				"        \"pernr\": \"11111111\",\r\n" + 
-				"        \"reqNo\": \"X0000003\",\r\n" + 
-				"        \"reqTyp\": \"Regular Quarters\",\r\n" + 
-				"        \"date\": \"20180112\",\r\n" + 
-				"        \"status\": \"In Waiting List\",\r\n" + 
-				"        \"fileName\": \"\",\r\n" + 
-				"        \"fileContent\": \"\",\r\n" + 
-				"        \"errorStatus\": null,\r\n" + 
-				"        \"fromDate\": \"\",\r\n" + 
-				"        \"toDate\": \"\",\r\n" + 
-				"        \"propName\": \"\",\r\n" + 
-				"        \"dest\": \"\"\r\n" + 
-				"    }\r\n" + 
-				"]";
+		return "{
+  "d" : {
+    "results" : [
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00209501",
+        "REQ_NO" : "1000000767",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210203",
+        "FROM_DATE" : "20210410",
+        "TO_DATE" : "20210414",
+        "PROP_NAME" : "THE HOTEL MARBLE",
+        "DEST" : "MANALI",
+        "STATUS" : "Confirmation Letter Received from Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00209501",
+        "REQ_NO" : "1000000852",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210209",
+        "FROM_DATE" : "20210410",
+        "TO_DATE" : "20210414",
+        "PROP_NAME" : "HOTEL NEDOUS (WORKMEN)",
+        "DEST" : "GULMARG",
+        "STATUS" : "Confirmation Letter Received from Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00209501",
+        "REQ_NO" : "1000000950",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210216",
+        "FROM_DATE" : "20210414",
+        "TO_DATE" : "20210417",
+        "PROP_NAME" : "HOTEL JAISHREE",
+        "DEST" : "Patnitop",
+        "STATUS" : "Rejected by Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00209501')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00209501",
+        "REQ_NO" : "1000000989",
+        "REQ_TYP" : "Transit Holiday Homes",
+        "DATE" : "20210217",
+        "FROM_DATE" : "20210414",
+        "TO_DATE" : "20210418",
+        "PROP_NAME" : "",
+        "DEST" : "JMMU",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+{
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001695",
+        "REQ_TYP" : "Regular Quarters",
+        "DATE" : "20210518",
+        "FROM_DATE" : "",
+        "TO_DATE" : "",
+        "PROP_NAME" : "",
+        "DEST" : "",
+        "STATUS" : "In Waiting List",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001579",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210407",
+        "FROM_DATE" : "20210412",
+        "TO_DATE" : "20210414",
+        "PROP_NAME" : "HOLIDAY HOME OOTY",
+        "DEST" : "OOTY",
+        "STATUS" : "Request closed by Admin",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001640",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210505",
+        "FROM_DATE" : "20210512",
+        "TO_DATE" : "20210514",
+        "PROP_NAME" : "CHHUTI HOLIDAY RESORT (WORKMEN)",
+        "DEST" : "shim",
+        "STATUS" : "Confirmation Letter Received from Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001643",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210505",
+        "FROM_DATE" : "20210519",
+        "TO_DATE" : "20210520",
+        "PROP_NAME" : "ACCORD PUDUCHERRY",
+        "DEST" : "PUDUCHERRY",
+        "STATUS" : "Confirmation Letter Received from Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001649",
+        "REQ_TYP" : "Holiday Homes",
+        "DATE" : "20210505",
+        "FROM_DATE" : "20210507",
+        "TO_DATE" : "00000000",
+        "PROP_NAME" : "MONDAY1",
+        "DEST" : "OOTY",
+        "STATUS" : "Pending with Allotment Team",
+        "FILE_NAME" : "Holiday_Homes_Allotment_letter.pdf",
+        "FILE_TYPE" : "application/pdf",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001571",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210405",
+        "FROM_DATE" : "20210413",
+        "TO_DATE" : "20210415",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001573",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210406",
+        "FROM_DATE" : "20210602",
+        "TO_DATE" : "20210604",
+        "PROP_NAME" : "RBSQ PH ROAD",
+        "DEST" : "CHEN",
+        "STATUS" : "Pending with Approver",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001575",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210406",
+        "FROM_DATE" : "20210519",
+        "TO_DATE" : "20210521",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001576",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210406",
+        "FROM_DATE" : "20210524",
+        "TO_DATE" : "20210526",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001599",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210428",
+        "FROM_DATE" : "20210504",
+        "TO_DATE" : "20210506",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001645",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210505",
+        "FROM_DATE" : "20210707",
+        "TO_DATE" : "20210709",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001691",
+        "REQ_TYP" : "Visiting Officers Flat",
+        "DATE" : "20210514",
+        "FROM_DATE" : "20210811",
+        "TO_DATE" : "20210813",
+        "PROP_NAME" : "",
+        "DEST" : "CHEN",
+        "STATUS" : "Request Cancelled by Proposer",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "uri" : "http://odc-sam-eccq.rbi1.rbi.org.in:8000/sap/opu/odata/sap/ZMOB_ALLOTMENT_DASHBOARD_SRV/req_listSet('00205279')",
+          "type" : "ZMOB_ALLOTMENT_DASHBOARD_SRV.req_list"
+        },
+        "PERNR" : "00205279",
+        "REQ_NO" : "1000001689",
+        "REQ_TYP" : "Vacation of Quarters",
+        "DATE" : "20210514",
+        "FROM_DATE" : "",
+        "TO_DATE" : "",
+        "PROP_NAME" : "Utkarsh' RBI Staff Quarters",
+        "DEST" : "",
+        "STATUS" : "Request Closed",
+        "FILE_NAME" : "",
+        "FILE_TYPE" : "",
+        "FILE_CONTENT" : ""
+      }
+
+    ]
+  }
+}";
 	}
 
 	public String AlotAdminWorklist() {
