@@ -405,28 +405,54 @@ public class Jsons {
 	public String getVigReqList() {
 		return "[\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000000\",\r\n" + 
-				"        \"reqTypVal\": \"Purchase\",\r\n" + 
-				"        \"reqTyp\": \"Declare purchase of moveable asset\",\r\n" + 
-				"        \"reqDate\": \"20190125\",\r\n" + 
+				"        \"pernr\": \"00000107\",\r\n" + 
+				"        \"reqTypVal\": null,\r\n" + 
+				"        \"reqTyp\": \"\",\r\n" + 
+				"        \"reqDate\": \"20190121\",\r\n" + 
 				"        \"reqStatus\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"assetTyp\": \"\",\r\n" + 
+				"        \"assetCost\": \"0.00 \"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000000\",\r\n" + 
-				"        \"reqTypVal\": \"Purchase\",\r\n" + 
-				"        \"reqTyp\": \"Declare purchase of moveable asset\",\r\n" + 
-				"        \"reqDate\": \"20190128\",\r\n" + 
-				"        \"reqStatus\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"pernr\": \"00000107\",\r\n" + 
+				"        \"reqTypVal\": null,\r\n" + 
+				"        \"reqTyp\": \"\",\r\n" + 
+				"        \"reqDate\": \"20190121\",\r\n" + 
+				"        \"reqStatus\": \"Submitted\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"assetTyp\": \"\",\r\n" + 
+				"        \"assetCost\": \"0.00 \"\r\n" + 
 				"    },\r\n" + 
 				"    {\r\n" + 
-				"        \"pernr\": \"00000000\",\r\n" + 
-				"        \"reqTypVal\": \"Sale\",\r\n" + 
-				"        \"reqTyp\": \"Declare sale of moveable asset\",\r\n" + 
-				"        \"reqDate\": \"20201110\",\r\n" + 
-				"        \"reqStatus\": \"\",\r\n" + 
-				"        \"errorStatus\": null\r\n" + 
+				"        \"pernr\": \"00000107\",\r\n" + 
+				"        \"reqTypVal\": null,\r\n" + 
+				"        \"reqTyp\": \"\",\r\n" + 
+				"        \"reqDate\": \"20190122\",\r\n" + 
+				"        \"reqStatus\": \"Saved\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"assetTyp\": \"\",\r\n" + 
+				"        \"assetCost\": \"0.00 \"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000107\",\r\n" + 
+				"        \"reqTypVal\": null,\r\n" + 
+				"        \"reqTyp\": \"\",\r\n" + 
+				"        \"reqDate\": \"20190122\",\r\n" + 
+				"        \"reqStatus\": \"Saved\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"assetTyp\": \"\",\r\n" + 
+				"        \"assetCost\": \"0.00 \"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00000107\",\r\n" + 
+				"        \"reqTypVal\": null,\r\n" + 
+				"        \"reqTyp\": \"\",\r\n" + 
+				"        \"reqDate\": \"20190123\",\r\n" + 
+				"        \"reqStatus\": \"Saved\",\r\n" + 
+				"        \"errorStatus\": null,\r\n" + 
+				"        \"assetTyp\": \"\",\r\n" + 
+				"        \"assetCost\": \"0.00 \"\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}
@@ -4721,6 +4747,48 @@ public class Jsons {
 				"        \"outTime\": \"040000\",\r\n" + 
 				"        \"errorStatus\": null,\r\n" + 
 				"        \"pernr\": null\r\n" + 
+				"    }\r\n" + 
+				"]";
+	}
+
+	public String getVigReportingList() {
+		// TODO Auto-generated method stub
+		return "[\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"AG01\",\r\n" + 
+				"        \"offText\": \"AGAR MOB\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"AH01\",\r\n" + 
+				"        \"offText\": \"AHMD MOB\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"AH02\",\r\n" + 
+				"        \"offText\": \"La Gajjar\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"BA01\",\r\n" + 
+				"        \"offText\": \"BANG MOB\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"BA02\",\r\n" + 
+				"        \"offText\": \"Annexe Building\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"        \"pernr\": \"00111111\",\r\n" + 
+				"        \"offVal\": \"BH01\",\r\n" + 
+				"        \"offText\": \"BHOP MOB\",\r\n" + 
+				"        \"errorStatus\": null\r\n" + 
 				"    }\r\n" + 
 				"]";
 	}

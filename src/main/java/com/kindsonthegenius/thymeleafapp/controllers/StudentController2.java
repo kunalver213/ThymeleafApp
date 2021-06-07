@@ -111,12 +111,18 @@ public class StudentController2 {
 	public String onlfcContinue(@RequestBody LfcContinue lfc) {
 		return new Jsons().onlfcContinue();
 	}	
-	
+
 	
 	@RequestMapping(value="/vigreqtypelist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	@ResponseBody
 	public String getVigReqTypeList(@RequestBody String empId) {
 		return new Jsons().getVigReqTypeList();
+	}
+	
+	@RequestMapping(value="/vigreportlist", method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	@ResponseBody
+	public String getVigReportingList(@RequestBody String empId) {
+		return new Jsons().getVigReportingList(); 
 	}	
 	
 	
